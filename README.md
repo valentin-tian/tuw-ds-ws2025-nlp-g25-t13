@@ -1,4 +1,4 @@
-# 194.093 Natural Language Processing and Information Extraction (WS2025)
+# 194.093 Natural Language Processing and Information Extraction (WS2025) - Project
 ## Topic 13 - Retrieval-augmented Generation for German official documents
 
 ### Contributors (Group 25): 
