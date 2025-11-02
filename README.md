@@ -1,7 +1,7 @@
 # 194.093 Natural Language Processing and Information Extraction (WS2025)
-## Group 25, Topic 13 - Retrieval-augmented Generation for German official documents
+## Topic 13 - Retrieval-augmented Generation for German official documents
 
-### Contributors: 
+### Contributors (Group 25): 
 - [Valentin Tian](https://tuwel.tuwien.ac.at/user/view.php?course=76899&id=205694)
 - [Diara Rinnerbauer](https://tuwel.tuwien.ac.at/user/view.php?course=76899&id=205694)
 - [Stefan Sick](https://tuwel.tuwien.ac.at/user/view.php?course=76899&id=129430)
