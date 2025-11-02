@@ -31,11 +31,11 @@
    - All ```.xmi``` files were read from the ```Schweiz.tar``` archive.
    - The [python script](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/preprocess.py) extracted the raw text from the ```<Sofa>``` element of each ```.xmi``` document using ```xml.etree.ElementTree```.
 2. NLP Preprocessing
-   - Text was processed usinf the Stanza German language pipeline (processors: ```tokenize```, ```mwt```, ```pos```, ```lemma```).
+   - Text was processed usinf the Stanza German language pipeline. (processors: ```tokenize```, ```mwt```, ```pos```, ```lemma```)
    - The tokenized, lemmatized text with part of speach tags was created. The ```mwt``` processor is responsible for expanding multiword tokens and recovering their full structure from short forms.
 3. Output
    - The documents were saved in the CoNLL-U format using ```stanza.utils.conll.CoNLL.write_doc2conll()```.
-   - Each file was saved with the same name ID as an original one (e.g. ```20000324.xmi.xmi``` -> ```20000324.gz.conllu```).
+   - Each file was saved with the same name ID as an original one. (e.g. ```20000324.xmi.xmi``` -> ```20000324.gz.conllu```)
    - All result files can be find at the [Google Drive link](https://drive.google.com/drive/folders/1lk53aSkx_aZ6wANKXdhMattQz2hUac7B?usp=sharing).
 4. Verification
    -
