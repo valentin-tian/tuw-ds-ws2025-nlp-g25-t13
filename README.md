@@ -29,10 +29,10 @@
 ### Process Documentation:
 1. Data Extraction
    - All ```.xmi``` files were read from the ```Schweiz.tar``` archive.
-   - The [python script](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/preprocess.py) extracted the raw text from the ```<Sofa>``` element of each .xmi document using ```xml.etree.ElementTree```.
+   - The [python script](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/preprocess.py) extracted the raw text from the ```<Sofa>``` element of each ```.xmi``` document using ```xml.etree.ElementTree```.
 2. NLP Preprocessing
-   -
-   -
+   - Text was processed usinf the Stanza German language pipeline (processors: ```tokenize```, ```mwt```, ```pos```, ```lemma```).
+   - The tokenized, lemmatized text with part of speach tags was created.
 3. Output
    -
    -
