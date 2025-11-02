@@ -10,4 +10,12 @@
 ### Instructor:
 - [Gabor Recski](https://tiss.tuwien.ac.at/person/336863.html)
 
-TU Wien DS Masters, WS2025, 194.093 NLP and IE Project, Group 25, Topic 13 (Retrieval-augmented Generation for German official documents)
+### Timeline:
+| Date | Activity | Description |
+|:----------|:--------:|------------:|
+| 02/11/2025 | Milestone 1 | CONLL-U Preprocessing |
+| 30/11/2025 | Milestone 2 | Baseline Evaluation |
+| 19/12/2025 | Review Meeting | Status Update |
+| 16/01/2026 | Final Presentation | Presentation and Feedback |
+| 25/01/2026 | Final Submission | Final Solution |
+
