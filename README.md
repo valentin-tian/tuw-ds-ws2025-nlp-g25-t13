@@ -41,7 +41,7 @@
    - A random sample of the generated files was manually inspected.
 5. Result
    - A total of 100 ```.xmi``` documents were succesfully converted into CoNLL-U format.
-  
+<!--  
 ### Milestone 2:
 #### Deliverables:
 - 
@@ -58,3 +58,4 @@
 3. 
    -
    -
+-->
