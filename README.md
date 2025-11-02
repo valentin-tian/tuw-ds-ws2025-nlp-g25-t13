@@ -11,7 +11,7 @@
 - [Gabor Recski](https://tiss.tuwien.ac.at/person/336863.html)
 
 ### Timeline:
-| Date | Activity | Description |
+| Deadline | Activity | Description |
 |:----------|:--------:|------------:|
 | 02/11/2025 | Milestone 1 | CoNLL-U Preprocessing |
 | 30/11/2025 | Milestone 2 | Baseline Evaluation |
