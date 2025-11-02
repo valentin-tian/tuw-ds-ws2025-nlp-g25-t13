@@ -21,12 +21,12 @@
 
 ## Project Structure
 ### Milestone 1:
-### Deliverables:
+#### Deliverables:
 - [Preprocessing Code](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/preprocess.py)
 - [Raw Data](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/tree/main/data/raw)
 - [CoNLL-U Files](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/tree/main/data/processed)
 
-### Process Documentation:
+#### Process Documentation:
 1. Data Extraction
    - All ```.xmi``` files were read from the ```Schweiz.tar``` archive - [25 - Nationlarat (CH)](http://lrec2022.gerparcor.texttechnologylab.org/).
    - The [Python Script](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/preprocess.py) extracted the raw text from the ```<Sofa>``` element of each ```.xmi``` document using ```xml.etree.ElementTree```.
@@ -43,12 +43,12 @@
    - A total of 100 ```.xmi``` documents were succesfully converted into CoNLL-U format.
   
 ### Milestone 2:
-### Deliverables:
+#### Deliverables:
 - 
 - 
 - 
 
-### Process Documentation:
+#### Process Documentation:
 1. 
    - 
    - 
