@@ -19,5 +19,5 @@
 | 16/01/2026 | Final Presentation | Presentation and Feedback |
 | 25/01/2026 | Final Submission | Final Solution |
 
-## Project Structure:
-### Milestone 1.
+## Project Structure
+### Milestone 1:
