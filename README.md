@@ -36,7 +36,7 @@
 3. Output
    - The documents were saved in the CoNLL-U format using ```stanza.utils.conll.CoNLL.write_doc2conll()```.
    - Each file was saved with the same name ID as an original one. (e.g. ```20000324.xmi.xmi``` -> ```20000324.gz.conllu```)
-   - All result files can be find at the [Google Drive link](https://drive.google.com/drive/folders/1lk53aSkx_aZ6wANKXdhMattQz2hUac7B?usp=sharing).
+   - All result files can be find at the [Google Drive CoNLL-U folder link](https://drive.google.com/drive/folders/1lk53aSkx_aZ6wANKXdhMattQz2hUac7B?usp=sharing).
 4. Verification
    -
 5. Result
