@@ -20,7 +20,7 @@
 | 25/01/2026 | Final Submission | Final Solution |
 
 ## Project Structure
-### Milestone 1:
+## Milestone 1:
 ### Deliverables:
 - [Preprocessing Code](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/preprocess.py)
 - [Raw Data](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/tree/main/data/raw)
