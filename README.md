@@ -1,5 +1,5 @@
 # 194.093 Natural Language Processing and Information Extraction (WS2025) - Project
-## Topic 13 - Retrieval-augmented Generation for German official documents
+## Topic 13 - Retrieval-augmented Generation (RAG) for German official documents
 
 ### Contributors (Group 25): 
 - [Valentin Tian](https://tuwel.tuwien.ac.at/user/view.php?course=76899&id=205694)
