@@ -130,7 +130,7 @@ def process_and_save_conllu(documents, nlp_pipeline):
             print(f"Error processing document {document_id}: {type(e).__name__} - {str(e)[:50]}...")
 
 
-# Step 5: inspect the output document
+# Step 4: inspect the output document
 def verify_output(documents):
     """Read and print a sample of the generated CoNLL-U file for inspection"""
     if not documents:
@@ -164,3 +164,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
