@@ -13,7 +13,7 @@
 ### Timeline:
 | Date | Activity | Description |
 |:----------|:--------:|------------:|
-| 02/11/2025 | [Milestone 1](### milestone 1) | CoNLL-U Preprocessing |
+| 02/11/2025 | [Milestone 1](#milestone 1) | CoNLL-U Preprocessing |
 | 30/11/2025 | Milestone 2 | Baseline Evaluation |
 | 19/12/2025 | Review Meeting | Status Update |
 | 16/01/2026 | Final Presentation | Presentation and Feedback |
