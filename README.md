@@ -27,3 +27,6 @@
 - [CONLL-U Files](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/tree/main/data/processed)
 
 ### Process Documentation:
+1. Data Extraction
+   - All .xmi files were read from the Schweiz.tar archive.
+   - The [python script](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/preprocess.py) extracted the raw text from the "Sofa" element of each .xmi document using ```xml.etree.ElementTree```.
