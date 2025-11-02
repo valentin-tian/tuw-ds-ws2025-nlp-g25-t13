@@ -28,7 +28,7 @@
 
 ### Process Documentation:
 1. Data Extraction
-   - All ```.xmi``` files were read from the ```Schweiz.tar``` archive ([25 - Nationlarat (CH)](http://lrec2022.gerparcor.texttechnologylab.org/).
+   - All ```.xmi``` files were read from the ```Schweiz.tar``` archive - [25 - Nationlarat (CH)](http://lrec2022.gerparcor.texttechnologylab.org/).
    - The [python script](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/preprocess.py) extracted the raw text from the ```<Sofa>``` element of each ```.xmi``` document using ```xml.etree.ElementTree```.
 2. NLP Preprocessing
    - Text was processed usinf the Stanza German language pipeline (processors: ```tokenize```, ```mwt```, ```pos```, ```lemma```).
