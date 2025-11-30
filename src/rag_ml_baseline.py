@@ -1,12 +1,10 @@
 import os
-import json  
+import json
 import logging
 import sys
 import gzip
-import os
 import tarfile
 import xml.etree.ElementTree as ET
-import re
 import random
 
 # --- 1. CONFIGURATION & IMPORTS ---
@@ -20,23 +18,23 @@ from llama_index.core import (
     StorageContext,
     load_index_from_storage
 )
+
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.core.node_parser import SentenceSplitter
 
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.chains import RetrievalQA
+from langchain_classic.chains import create_retrieval_chain
 from langchain_core.retrievers import BaseRetriever
 from langchain_core.documents import Document as LangChainDocument
 from langchain_core.prompts import PromptTemplate
 from typing import List, Any
 import gradio as gr
 
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_classic.chains.combine_documents import create_stuff_documents_chain
+
 # Insert your local path to the input and output folder
 TAR_PATH = (
-    r""
-)
-# e.g. r"C:\Users\user\Corpus\Conllu_output"
-OUTPUT_DIR = (
     r""
 )
 
@@ -46,13 +44,12 @@ api_key = ""
 # Define where you want to save the indexed data
 PERSIST_DIR = "./storage"
 
-DOC_LIMIT = 10
+DOC_LIMIT = 100
 SOFA_NAMESPACE = "{http:///uima/cas.ecore}Sofa"
-
 
 # --- 2. STORAGE FOR Q&A ---
 CHAT_LOG = []  # list for Chat log
-LOG_FILE = "chat_history.json" # 
+LOG_FILE = "chat_history.json" #
 
 def save_log_to_disk():
     """Saves the current CHAT_LOG to a JSON file"""
@@ -60,12 +57,10 @@ def save_log_to_disk():
         json.dump(CHAT_LOG, f, ensure_ascii=False, indent=2)
     print(f"Saved {len(CHAT_LOG)} interactions to {LOG_FILE}")
 
-
 # --- 3. SETUP THE MODELS ---
 print("Loading Embedding Model")
 Settings.embed_model = HuggingFaceEmbedding(model_name="intfloat/multilingual-e5-large")
 Settings.node_parser = SentenceSplitter(chunk_size=1024, chunk_overlap=100)
-
 
 # --- 4. LOAD DATA---
 def extract_raw_text(tar_path, doc_limit):
@@ -107,7 +102,6 @@ def extract_raw_text(tar_path, doc_limit):
                                 "text": text
                             })
 
-                    # Stop after reaching the defined limit
                     if len(docs) >= doc_limit:
                         print(f"Reached document limit of {doc_limit}")
                         break
@@ -130,7 +124,6 @@ if not raw_data:
     print("ERROR: No documents were found! Check your TAR_PATH and XML Namespace.")
     sys.exit(1)
 
-
 print("Converting dictionaries to Documents")
 documents = []
 for entry in raw_data:
@@ -141,7 +134,6 @@ for entry in raw_data:
             "id_": entry["id"]}
     )
     documents.append(doc)
-
 
 # --- 5. INDEXING ---
 if os.path.exists(PERSIST_DIR):
@@ -156,7 +148,7 @@ else:
 
 # --- 6. ADAPTER CLASS ---
 class LlamaIndexToLangChainRetriever(BaseRetriever):
-    llama_retriever: Any 
+    llama_retriever: Any
     def _get_relevant_documents(self, query: str, *, run_manager=None) -> List[LangChainDocument]:
         nodes = self.llama_retriever.retrieve(query)
         langchain_docs = []
@@ -173,6 +165,7 @@ llama_retriever = LlamaIndexToLangChainRetriever(llama_retriever=raw_retriever)
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
+    google_api_key=api_key,
     temperature=0,
     convert_system_message_to_human=True
 )
@@ -191,59 +184,55 @@ custom_template = """
     Kontext aus den Dokumenten:
     {context}
 
-    Frage des Nutzers: {question}
+    Frage des Nutzers: {input}
 
     Antwort:
     """
 
-PROMPT = PromptTemplate(
-    template=custom_template, 
-    input_variables=["context", "question"])
+PROMPT = ChatPromptTemplate.from_template(custom_template)
 
-qa_chain = RetrievalQA.from_chain_type(
+document_chain = create_stuff_documents_chain(
     llm=llm,
+    prompt=PROMPT
+)
+
+qa_chain = create_retrieval_chain(
     retriever=llama_retriever,
-    chain_type="stuff",
-    return_source_documents=True,
-    chain_type_kwargs={"prompt": PROMPT}
+    combine_docs_chain=document_chain
 )
 
 
 # --- 9. CHAT LOGIC  ---
 def chat_logic(message, history):
     try:
-        # 1. Run the Chain
-        response = qa_chain.invoke({"query": message})
-        answer_text = response['result']
-        
-        # 2. Extract Sources
+        response = qa_chain.invoke({"input": message})
+        answer_text = response["answer"]
+
         sources_list = []
         sources_text = "\n\n**Sources:**"
-        for doc in response.get('source_documents', []):
-            s_id = doc.metadata.get('id_', 'Unknown')
-           
+
+        for doc in response.get("context", []):
+            s_id = doc.metadata.get("id_", "Unknown")
             sources_text += f"\n- ID: {s_id} "
-            
             sources_list.append({"id": s_id})
 
-        # 3. STORE THE DATA
         interaction_dict = {
             "question": message,
             "answer": answer_text,
             "sources": sources_list
         }
-        
+
         CHAT_LOG.append(interaction_dict)
         save_log_to_disk()
-            
+
         return answer_text + sources_text
-        
+
     except Exception as e:
         return f"Error: {str(e)}"
-   
+
 # --- 10. LAUNCH UI ---
 demo = gr.ChatInterface(
-    fn=chat_logic, 
+    fn=chat_logic,
     title="German Parliament RAG",
     description="Questions are automatically saved to 'chat_history.json'.",
     examples=[""]
@@ -251,20 +240,18 @@ demo = gr.ChatInterface(
 
 demo.launch(share=False)
 
-
-
-# Test 
-NUM_TEST_QUESTIONS = 5 
+NUM_TEST_QUESTIONS = 5
 EVAL_OUTPUT_FILE = "eval_results.json"
+
 
 def clean_json_string(json_str):
     json_str = json_str.replace("```json", "").replace("```", "").strip()
     return json_str
 
+
 def generate_qa(document_text):
-    # Limited the text for easier generation
     snippet = document_text[:2000]
-    
+
     teacher_prompt = f"""
     Du erstellst Fragen für einen Test.
     Hier ist ein Auszug aus einem Parlamentsdokument:
@@ -281,9 +268,8 @@ def generate_qa(document_text):
         "truth": "Deine Musterlösung hier"
     }}
     """
-    
+
     try:
-        # We use the LLM for generation
         response = llm.invoke(teacher_prompt).content
         data = json.loads(clean_json_string(response))
         return data
@@ -291,8 +277,9 @@ def generate_qa(document_text):
         print(f"Error generating question: {e}")
         return None
 
+
 def evaluate_rag_performance(question, truth, rag_answer):
-    
+
     judge_prompt = f"""
     Du überprüfst die Antworten eines Tests. Vergleiche die Antwort eines Studenten mit der Musterlösung.
     
@@ -314,8 +301,7 @@ def evaluate_rag_performance(question, truth, rag_answer):
         "score": 0-5,
         "reasoning": "Kurze Erklärung warum"
     }}
-    """
-    
+
     try:
         response = llm.invoke(judge_prompt).content
         data = json.loads(clean_json_string(response))
@@ -324,71 +310,67 @@ def evaluate_rag_performance(question, truth, rag_answer):
         print(f"Error evaluation: {e}")
         return {"is_correct": False, "score": 0, "reasoning": "Judge crashed"}
 
+
 def run_eval_pipeline():
     print(f"\n--- STARTING AUTOMATED EVALUATION ({NUM_TEST_QUESTIONS} Docs) ---\n")
-    
+
     results = []
-    
-    # Pick random documents to test on
+
     if len(documents) < NUM_TEST_QUESTIONS:
         test_docs = documents
     else:
         test_docs = random.sample(documents, NUM_TEST_QUESTIONS)
-        
+
     for i, doc in enumerate(test_docs):
         print(f"Processing Test {i+1}/{NUM_TEST_QUESTIONS}...")
-        
-        # Generate
+
         qa_pair = generate_qa(doc.text)
         if not qa_pair:
-            continue 
-            
-        question = qa_pair['question']
-        ground_truth = qa_pair['ground_truth']
-        doc_id = doc.metadata.get('id_', 'Unknown')
-        
+            continue
+
+        question = qa_pair["question"]
+        ground_truth = qa_pair["truth"]
+        doc_id = doc.metadata.get("id_", "Unknown")
+
         print(f"  Generated Q: {question}")
-        
-        # Create Answers
+
         try:
-            rag_response = qa_chain.invoke({"query": question})
-            rag_answer = rag_response['result']
-            
-            retrieved_ids = [d.metadata.get('id_', '') for d in rag_response.get('source_documents', [])]
+            rag_response = qa_chain.invoke({"input": question})
+            rag_answer = rag_response["answer"]
+
+            retrieved_ids = [
+                d.metadata.get("id_", "")
+                for d in rag_response.get("context", [])
+            ]
             found_source = doc_id in retrieved_ids
-            
+
         except Exception as e:
             rag_answer = f"ERROR: {str(e)}"
             found_source = False
-            
-        # Evaluate
+
         eval_result = evaluate_rag_performance(question, ground_truth, rag_answer)
-        
-        # Compile result
+
         report_card = {
             "id": doc_id,
             "question": question,
             "ground_truth": ground_truth,
             "rag_answer": rag_answer,
-            "score": eval_result.get('score', 0),
-            "is_correct": eval_result.get('is_correct', False),
-            "reasoning": eval_result.get('reasoning', ''),
-            "retrieval_success": found_source
+            "score": eval_result.get("score", 0),
+            "is_correct": eval_result.get("is_correct", False),
+            "reasoning": eval_result.get("reasoning", ""),
+            "retrieval_success": found_source,
         }
-        
+
         results.append(report_card)
         print(f"  Score: {report_card['score']}/5 | Correct: {report_card['is_correct']}")
         print("-" * 30)
 
-    # Save Results
     with open(EVAL_OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
-        
-    # Calculate Score
+
     if results:
-        avg_score = sum(r['score'] for r in results) / len(results)
+        avg_score = sum(r["score"] for r in results) / len(results)
         print(f"\nAverage Score: {avg_score:.1f}/5")
         print(f"Results saved to {EVAL_OUTPUT_FILE}")
 
-# Run the pipeline
 run_eval_pipeline()
