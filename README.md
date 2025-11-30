@@ -48,7 +48,9 @@
    - [Multilingual E5 Text Embeddings Model RAG Baseline Code](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/rag_ml_baseline.py)
 
 #### Process Documentation:
+
 For the Milestone 2, two baseline RAG systems were implemented, one was implemented using TF-IDF aproach for the embeddings processing and another one was implemented using pre-trained Multilingual E5 Text Embeddings Model from Hugging Face.
+
 1. 
    -
    -
