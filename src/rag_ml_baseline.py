@@ -301,6 +301,7 @@ def evaluate_rag_performance(question, truth, rag_answer):
         "score": 0-5,
         "reasoning": "Kurze Erklärung warum"
     }}
+    """
 
     try:
         response = llm.invoke(judge_prompt).content
@@ -374,3 +375,4 @@ def run_eval_pipeline():
         print(f"Results saved to {EVAL_OUTPUT_FILE}")
 
 run_eval_pipeline()
+
