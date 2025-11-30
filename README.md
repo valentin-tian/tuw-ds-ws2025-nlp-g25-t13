@@ -52,6 +52,9 @@
 For the Milestone 2, two baseline RAG systems were implemented, one was implemented using TF-IDF aproach for the embeddings processing and another one was implemented using pre-trained Multilingual E5 Text Embeddings Model from Hugging Face.
 
 - First, we loaded a corpus of parliamentary documents from a tar archive. The raw text is extracted from the XMI files from a special Sofa element. For each file a structure with an id and text was created. Then those dictionaries were converted into Document objects from LlamaIndex.
+- Next, a search layer was buit on the top of the documents. In the rule-based baseline we have used TF-IDF aproach to build vectors and then the indices were created. In the machine learning aproach we have used Multilingual E5 Text Embeddings Model to create embeddings.
+- Then we created a RAG chain: based on the user`s request, the system is trying to find relevant documents, retrive a correct context and put the context and the question in the predifined promt, and send everything to the LLM (what is Gemini 2.5 flash in our case).
+- 
 
 
 
