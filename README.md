@@ -44,16 +44,16 @@
  
 ### Milestone 2:
 #### Deliverables:
-   - [Rule-based Embeddings (TF-IDF) RAG](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/rag_rb_baseline.py)
-   - [Multilingual E5 Text Embeddings RAG](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/rag_ml_baseline.py)
+   - [Rule-based Embeddings (TF-IDF) RAG Baseline Code](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/rag_rb_baseline.py)
+   - [Multilingual E5 Text Embeddings Model RAG Baseline Code](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/rag_ml_baseline.py)
 
 #### Process Documentation:
 1. 
    -
    -
 2. 
-   - 
-   - 
+   -
+   -
 3. 
    -
    -
