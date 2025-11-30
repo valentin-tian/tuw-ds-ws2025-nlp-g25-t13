@@ -14,22 +14,6 @@
   {
     "id": 3,
     "question": "Wie viele Anzeigen gaben es in den Jahren 2000 und 2015 in der Schweiz im Bezug auf Gewalt gegen Behörden und Beamte und in welchem Artikel werden diese festgehalten?",
-    "source_id": [
-  {
-    "id": 1,
-    "question": "Was war der Ausgang der Abstimmung der Staatspolitischen Kommision über die Handhabung von Volksinitiativen die Grundrechte verletzen?",
-    "source_id": "20111220.gz",
-    "expected_answer": "13 Stimmen Annahme, 8 Stimmen dagegen, 2 Enthaltungen."
-  },
-  {
-    "id": 2,
-    "question": "Was war die Antwort von Andreas Babler auf die Frage, ob der Mars bald besiedelt wird?",
-    "source_id": null,
-    "expected_answer": "Information nicht enthalten. (Halluzinationstest)"
-  },
-  {
-    "id": 3,
-    "question": "Wie viele Anzeigen gaben es in den Jahren 2000 und 2015 in der Schweiz im Bezug auf Gewalt gegen Behörden und Beamte und in welchem Artikel werden diese festgehalten?",
     "source_id": null,
     "expected_answer": "2000: 744, 2015: 2808. Artikel 85 StGB."
   },
@@ -144,4 +128,5 @@
     "source_id": "20201217.gz",
     "expected_answer": "1. Die Bundesverwaltung bezieht bereits 100% erneuerbaren Strom. 2. Vollständige Autonomie ist weder betriebs- noch volkswirtschaftlich sinnvoll."
   }
+
 ]
