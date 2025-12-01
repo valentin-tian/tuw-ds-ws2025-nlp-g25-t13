@@ -69,7 +69,7 @@ Two approaches were compared using a mean score from 0 to 5. The score shows the
 | Relative improvement | +25% | - |
 | Error reduction | 64% | - |
 
-The ML aproach provided almost a full point increase in the quality of answers what is 25%. Also the ML aproach reduces the system`s error rate by 64% compared to rule-based system.
+Quantitative analysis showed that the ML approach significantly outperforms the rule-based approach, the average score increases from 3.6 to 4.5, corresponding to an increase in accuracy of approximately 25% and a 64% reduction in errors relative to the ideal result. This indicates a significantly higher ability of the ML system to correctly extract relevant context and generate accurate answers even with variable wording, whereas the rule-based approach remains limited and degrades performance on more complex questions.
 
 #### Qualitative Evaluation
 
