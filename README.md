@@ -1,16 +1,16 @@
 # 194.093 Natural Language Processing and Information Extraction (WS2025) - Project
 ## Topic 13 - Retrieval-augmented Generation (RAG) for German official documents
 
-### Contributors (Group 25): 
+### Contributors (Group 25)
 - [Valentin Tian](https://tuwel.tuwien.ac.at/user/view.php?course=76899&id=205694)
 - [Diara Rinnerbauer](https://tuwel.tuwien.ac.at/user/view.php?course=76899&id=211007)
 - [Stefan Sick](https://tuwel.tuwien.ac.at/user/view.php?course=76899&id=129430)
 <!--- [Shakoor Muhammad Nouman](https://tuwel.tuwien.ac.at/user/view.php?course=76899&id=211748)-->
 
-### Instructor:
+### Instructor
 - [Gabor Recski](https://tiss.tuwien.ac.at/person/336863.html)
 
-### Timeline:
+### Timeline
 | Deadline | Activity | Description |
 |:----------|:--------:|------------:|
 | 02/11/2025 | Milestone 1 | CoNLL-U Preprocessing |
@@ -21,12 +21,12 @@
 
 ## Project Structure
 ### Milestone 1
-#### Deliverables:
+#### Deliverables
 - [Preprocessing Code](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/preprocess.py)
 - [Raw Data](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/tree/main/data/raw)
 - [CoNLL-U Files](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/tree/main/data/processed)
 
-#### Process Documentation:
+#### Process Documentation
 1. Data Extraction
    - All ```.xmi``` files were read from the ```Schweiz.tar``` archive - [25 - Nationlarat (CH)](http://lrec2022.gerparcor.texttechnologylab.org/).
    - The [Python Script](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/preprocess.py) extracted the raw text from the ```<Sofa>``` element of each ```.xmi``` document using ```xml.etree.ElementTree```.
@@ -43,11 +43,11 @@
    - A total of 100 ```.xmi``` documents were succesfully converted into CoNLL-U format.
  
 ### Milestone 2
-#### Deliverables:
+#### Deliverables
    - [Rule-based Embeddings (TF-IDF) RAG Baseline Code](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/rag_rb_baseline.py)
    - [Multilingual E5 Text Embeddings Model RAG Baseline Code](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/rag_ml_baseline.py)
 
-#### Process Documentation:
+#### Process Documentation
 
 For the Milestone 2, two baseline RAG systems were implemented, one was implemented using TF-IDF aproach for the embeddings processing and another one was implemented using pre-trained Multilingual E5 Text Embeddings Model from Hugging Face.
 
@@ -57,8 +57,8 @@ For the Milestone 2, two baseline RAG systems were implemented, one was implemen
 - With a Gradio UI we created a web-interface for the chatting. While using this chat interface, the system logs all interactions in a separate JSON file.
 - In the end we evaluated our system using automatic evaluation approach: first, LLM as a teacher generates questions and reference answer pairs from JSON documents. These questiones are then posed to the RAG system and its answers are cmpared with the benchmark using the same LLM but now as an "examiner". The model evauates the answer`s accuracy with a score from 0 to 5 and explains the reasoning behind the answer. Question, truth value, answer and score are saved in a separate JSON file and a metric of the mean score is calculated.
 
-#### Evaluation:
+#### Evaluation
 
-##### Quantitative:
+##### Quantitative
 
-##### Qualitative:
+##### Qualitative
