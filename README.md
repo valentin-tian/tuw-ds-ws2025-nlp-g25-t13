@@ -5,7 +5,7 @@
 - [Valentin Tian](https://tuwel.tuwien.ac.at/user/view.php?course=76899&id=205694)
 - [Diara Rinnerbauer](https://tuwel.tuwien.ac.at/user/view.php?course=76899&id=211007)
 - [Stefan Sick](https://tuwel.tuwien.ac.at/user/view.php?course=76899&id=129430)
-- [Shakoor Muhammad Nouman](https://tuwel.tuwien.ac.at/user/view.php?course=76899&id=211748)
+<!--- [Shakoor Muhammad Nouman](https://tuwel.tuwien.ac.at/user/view.php?course=76899&id=211748)-->
 
 ### Instructor:
 - [Gabor Recski](https://tiss.tuwien.ac.at/person/336863.html)
@@ -20,7 +20,7 @@
 | 25/01/2026 | Final Submission | Final Solution |
 
 ## Project Structure
-### Milestone 1:
+### Milestone 1
 #### Deliverables:
 - [Preprocessing Code](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/preprocess.py)
 - [Raw Data](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/tree/main/data/raw)
@@ -42,7 +42,7 @@
 5. Result
    - A total of 100 ```.xmi``` documents were succesfully converted into CoNLL-U format.
  
-### Milestone 2:
+### Milestone 2
 #### Deliverables:
    - [Rule-based Embeddings (TF-IDF) RAG Baseline Code](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/rag_rb_baseline.py)
    - [Multilingual E5 Text Embeddings Model RAG Baseline Code](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/rag_ml_baseline.py)
