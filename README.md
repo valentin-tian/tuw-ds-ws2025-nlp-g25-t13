@@ -59,10 +59,14 @@ For the Milestone 2, two baseline RAG systems were implemented, one was implemen
 
 #### Quantitative Evaluation
 
-| Approach | Mean-Score|
-|:----------|:--------:|
-| Rule-based | 3.6/5 |
-| Machine learning | 4.5/5 |
+Two approaches were compared using a mean score from 0 to 5. THe score shows the accuracy and usefulness of answers on the corpus of parliamentary documents.
+
+| Approach | Mean-Score| Max Possible |
+|:----------|:--------:|:--------:|
+| Rule-based | 3.6 | 5 |
+| Machine learning | 4.5 | 5 |
+| Delta | - | +0.9 |
+| Relative improvement | - | +25% |
 
 #### Qualitative Evaluation
 
@@ -70,5 +74,5 @@ For the Milestone 2, two baseline RAG systems were implemented, one was implemen
 
 - Try another model to create embeddings.
 - Add a tool for detecting hallucinations.
-- Make a promt "stronger": hard rejection if there is no information, request to cite, limit the scope of the context.
+- Make a promt "stronger" - hard rejection if there is no information, request to cite, limit the scope of the context.
 - Add a simple verifier - a second prompt that checkt the answer whithin the context.
