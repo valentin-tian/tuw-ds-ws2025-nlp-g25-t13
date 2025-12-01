@@ -57,13 +57,11 @@ For the Milestone 2, two baseline RAG systems were implemented, one was implemen
 - With a Gradio UI we created a web-interface for the chatting. While using this chat interface, the system logs all interactions in a separate JSON file.
 - In the end we evaluated our system using automatic evaluation approach: first, LLM as a teacher generates questions and reference answer pairs from documents. These questiones are then posed to the RAG system and its answers are cmpared with the benchmark using the same LLM but now as an "examiner". The model evauates the answer`s accuracy with a score from 0 to 5 and explains the reasoning behind the answer. Question, truth value, answer and score are saved in a separate JSON file and a metric of the mean score is calculated.
 
-#### Evaluation
-
-##### Quantitative
+#### Quantitative Evaluation
 
 | Approach | Mean-Score|
 |:----------|:--------:|
 | Rule-based | 3.5/5 |
 | Machine learning | 4.5/5 |
 
-##### Qualitative
+#### Qualitative Evaluation
