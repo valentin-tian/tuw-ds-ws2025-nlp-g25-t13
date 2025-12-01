@@ -58,3 +58,7 @@ For the Milestone 2, two baseline RAG systems were implemented, one was implemen
 - In the end we evaluated our system using automatic evaluation approach: first, LLM as a teacher generates questions and reference answer pairs from JSON documents. These questiones are then posed to the RAG system and its answers are cmpared with the benchmark using the same LLM but now as an "examiner". The model evauates the answer`s accuracy with a score from 0 to 5 and explains the reasoning behind the answer. Question, truth value, answer and score are saved in a separate JSON file and a metric of the mean score is calculated.
 
 #### Evaluation:
+
+##### Quantitative:
+
+##### Qualitative:
