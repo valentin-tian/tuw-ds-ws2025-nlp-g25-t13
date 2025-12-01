@@ -6,7 +6,8 @@ import gzip
 import os
 import tarfile
 import xml.etree.ElementTree as ET
-
+import random
+import time
 # --- 1. CONFIGURATION & IMPORTS ---
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
@@ -31,11 +32,15 @@ from langchain_classic.chains import create_retrieval_chain
 from langchain_core.prompts import PromptTemplate
 from typing import List, Any
 import gradio as gr
-from llama_index.core.retrievers import TFIDFRetriever
+#from langchain_community.retrievers import TFIDFRetriever
+from llama_index.retrievers.bm25 import BM25Retriever
+from llama_index.core.node_parser import SentenceSplitter
+
 # Insert your local path to the input and output folder
 TAR_PATH = (
     r""
 )
+
 
 # Google API key: https://aistudio.google.com/api-keys
 api_key = ""
@@ -43,7 +48,7 @@ api_key = ""
 # Define where you want to save the indexed data
 PERSIST_DIR = "./storage"
 
-DOC_LIMIT = 10
+DOC_LIMIT = 25
 SOFA_NAMESPACE = "{http:///uima/cas.ecore}Sofa"
 
 
@@ -141,16 +146,16 @@ for entry in raw_data:
 
 
 # --- 5. INDEXING ---
-if os.path.exists(PERSIST_DIR):
-    print("Loading index from storage")
-    storage_context = StorageContext.from_defaults(persist_dir=PERSIST_DIR)
-    index = load_index_from_storage(storage_context)
-else:
-    print("Creating TF-IDF retriever")
-    tfidf_retriever = TFIDFRetriever.from_documents(
-    documents,
+splitter = SentenceSplitter(chunk_size=1024, chunk_overlap=100)
+nodes = splitter.get_nodes_from_documents(documents)
+
+# 2. Create the Retriever TF-IDF index
+bm25_retriever = BM25Retriever.from_defaults(
+    nodes=nodes,
     similarity_top_k=5
 )
+
+
 
 
 # --- 6. ADAPTER CLASS ---
@@ -167,14 +172,12 @@ class LlamaIndexToLangChainRetriever(BaseRetriever):
 
 
 # --- 7. CONNECT TO LANGCHAIN ---
-llama_retriever = LlamaIndexToLangChainRetriever(
-    llama_retriever=tfidf_retriever
-)
-
+# 3. Use it in your Adapter Class
+# Now, instead of searching for "Meanings", it searches for "Exact Words"
+llama_retriever = LlamaIndexToLangChainRetriever(llama_retriever=bm25_retriever)
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
-    google_api_key=api_key,
     temperature=0,
     convert_system_message_to_human=True
 )
@@ -255,7 +258,7 @@ demo.launch(share=False)
 
 
 
-NUM_TEST_QUESTIONS = 5
+NUM_TEST_QUESTIONS = 25
 EVAL_OUTPUT_FILE = "eval_results.json"
 
 
@@ -327,33 +330,39 @@ def evaluate_rag_performance(question, truth, rag_answer):
         print(f"Error evaluation: {e}")
         return {"is_correct": False, "score": 0, "reasoning": "Judge crashed"}
 
-
 def run_eval_pipeline():
     print(f"\n--- STARTING AUTOMATED EVALUATION ({NUM_TEST_QUESTIONS} Docs) ---\n")
-
+    
+    # 10 requests per minute = 1 request every 6 seconds.
+    RATE_LIMIT_DELAY = 6.5 
+    
     results = []
-
+    
     # Pick random documents to test on
-    if len(documents) < NUM_TEST_QUESTIONS:
-        test_docs = documents
-    else:
-        test_docs = random.sample(documents, NUM_TEST_QUESTIONS)
-
+    
+    test_docs = random.sample(documents, NUM_TEST_QUESTIONS)
+        
     for i, doc in enumerate(test_docs):
         print(f"Processing Test {i+1}/{NUM_TEST_QUESTIONS}...")
-
-        # Generate
+        
+        # --- API CALL 1: GENERATION ---
         qa_pair = generate_qa(doc.text)
-        if not qa_pair:
-            continue
+        
+        # RATE LIMIT PAUSE
+        print(f"   (Waiting {RATE_LIMIT_DELAY}s for API limit)")
+        time.sleep(RATE_LIMIT_DELAY) 
 
+        if not qa_pair:
+            continue 
+            
         question = qa_pair["question"]
         ground_truth = qa_pair["truth"]
         doc_id = doc.metadata.get("id_", "Unknown")
-
-        print(f"  Generated Q: {question}")
-
-        # Create Answers
+        
+        print(f"   Generated Q: {question}")
+        
+        # --- API CALL 2: RAG ANSWER ---
+        
         try:
             rag_response = qa_chain.invoke({"input": question})
             rag_answer = rag_response["answer"]
@@ -368,8 +377,16 @@ def run_eval_pipeline():
             rag_answer = f"ERROR: {str(e)}"
             found_source = False
 
-        # Evaluate
+        # RATE LIMIT PAUSE
+        print(f"   (Waiting {RATE_LIMIT_DELAY}s for API limit)")
+        time.sleep(RATE_LIMIT_DELAY) 
+            
+        # --- API CALL 3: EVALUATION ---
         eval_result = evaluate_rag_performance(question, ground_truth, rag_answer)
+        
+        # RATE LIMIT PAUSE
+        print(f"   (Waiting {RATE_LIMIT_DELAY}s for API limit...)")
+        time.sleep(RATE_LIMIT_DELAY) 
 
         # Compile result
         report_card = {
@@ -390,14 +407,18 @@ def run_eval_pipeline():
     # Save Results
     with open(EVAL_OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
-
+        
     # Calculate Score
     if results:
-        avg_score = sum(r["score"] for r in results) / len(results)
+        avg_score = sum(r['score'] for r in results) / len(results)
         print(f"\nAverage Score: {avg_score:.1f}/5")
         print(f"Results saved to {EVAL_OUTPUT_FILE}")
 
 
 # Run the pipeline
 run_eval_pipeline()
+
+
+
+
 
