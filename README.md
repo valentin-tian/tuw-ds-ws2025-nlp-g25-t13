@@ -59,16 +59,20 @@ For the Milestone 2, two baseline RAG systems were implemented, one was implemen
 
 #### Quantitative Evaluation
 
-Two approaches were compared using a mean score from 0 to 5. THe score shows the accuracy and usefulness of answers on the corpus of parliamentary documents.
+Two approaches were compared using a mean score from 0 to 5. The score shows the accuracy and usefulness of answers on the corpus of parliamentary documents.
 
 | Approach | Mean-Score| Max Possible |
 |:----------|:--------:|:--------:|
 | Rule-based | 3.6 | 5 |
 | Machine learning | 4.5 | 5 |
-| Delta | - | +0.9 |
-| Relative improvement | - | +25% |
+| Delta | +0.9 | - |
+| Relative improvement | +25% | - |
+| Error reduction | 64% | - |
+
+The ML aproach provided almost a full point increase in the quality of answers what is 25%. Also the ML aproach reduces the system`s error rate by 64% compared to rule-based system.
 
 #### Qualitative Evaluation
+
 We have analysed the answers generated from the RAG model for both rule-based and machine learning based embeddings. The evaluation utilized a pre-defined test set consisting of 12 domain-specific questions. 
 1) Correctness: Majority of questions have been answered correctly. However, in several instances, the generated answers contained multiple sentences, only one of which was factually correct and supported by the source material.
 2) Sources:  A recurring issue was the generation of an accurate single sentence that was attributed to multiple, often redundant, source documents. Nevertheless, for the questions that could not have any source document, the model correctly indicated that no such source exists.
