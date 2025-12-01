@@ -54,8 +54,7 @@ For the Milestone 2, two baseline RAG systems were implemented, one was implemen
 - First, we loaded a corpus of parliamentary documents from a tar archive. The raw text is extracted from the XMI files from a special Sofa element. For each file a structure with an id and text was created. Then those dictionaries were converted into Document objects from LlamaIndex.
 - Next, a search layer was buit on the top of the documents. In the rule-based baseline we have used TF-IDF aproach to build vectors and then the indices were created. In the machine learning aproach we have used Multilingual E5 Text Embeddings Model to create embeddings.
 - Then we created a RAG chain: based on the user`s request, the system is trying to find relevant documents, retrive a correct context and put the context and the question in the predifined promt, and send everything to the LLM (what is Gemini 2.5 flash in our case).
-- 
-
-
+- With a Gradio UI we created a web-interface for the chatting. While using this chat interface, the system logs all interactions in a separate JSON file.
+- In the end we evaluated our system using automatic evaluation approach: first, LLM as a teacher generates questions and reference answer pairs from JSON documents. These questiones are then posed to the RAG system and its answers are cmpared with the benchmark using the same LLM but now as an "examiner". The model evauates the answer`s accuracy with a score from 0 to 5 and explains the reasoning behind the answer. Question, truth value, answer and score are saved in a separate JSON file and a metric of the mean score is calculated.
 
 #### Evaluation:
