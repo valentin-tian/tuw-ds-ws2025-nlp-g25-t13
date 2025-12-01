@@ -69,6 +69,10 @@ Two approaches were compared using a mean score from 0 to 5. THe score shows the
 | Relative improvement | - | +25% |
 
 #### Qualitative Evaluation
+We have analysed the answers generated from the RAG model for both rule-based and machine learning based embeddings. The evaluation utilized a pre-defined test set consisting of 12 domain-specific questions. 
+1) Correctness: Majority of questions have been answered correctly. However, in several instances, the generated answers contained multiple sentences, only one of which was factually correct and supported by the source material.
+2) Sources:  A recurring issue was the generation of an accurate single sentence that was attributed to multiple, often redundant, source documents.
+3) Hallucinations: we performed a dedicated hallucination test by posing a question that could not be answered using the provided document corpus. We are pleased to report that the model successfully passed this test, either by responding that the information was not present or by returning a null answer
 
 #### Possible Improvements
 
