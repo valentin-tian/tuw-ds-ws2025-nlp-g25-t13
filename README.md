@@ -66,4 +66,4 @@ For the Milestone 2, two baseline RAG systems were implemented, one was implemen
 
 #### Qualitative Evaluation
 
-#### Possible improvements
+#### Possible Improvements
