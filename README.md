@@ -61,4 +61,9 @@ For the Milestone 2, two baseline RAG systems were implemented, one was implemen
 
 ##### Quantitative
 
+| Approach | Mean-Score|
+|:----------|:--------:|
+| Rule-based | 3.5/5 |
+| Machine learning | 4.5/5 |
+
 ##### Qualitative
