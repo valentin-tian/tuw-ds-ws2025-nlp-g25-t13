@@ -65,3 +65,5 @@ For the Milestone 2, two baseline RAG systems were implemented, one was implemen
 | Machine learning | 4.5/5 |
 
 #### Qualitative Evaluation
+
+#### Possible improvements
