@@ -83,4 +83,4 @@ We have analysed the answers generated from the RAG model for both rule-based an
 - Try another model to create embeddings.
 - Add a tool for detecting hallucinations.
 - Make a promt "stronger" - hard rejection if there is no information, request to cite, limit the scope of the context.
-- Add a simple verifier - a second prompt that checkt the answer whithin the context.
+- Add a simple verifier - a second prompt that checks the answer whithin the context.
