@@ -84,3 +84,24 @@ We have analysed the answers generated from the RAG model for both rule-based an
 - Add a tool for detecting hallucinations.
 - Make a promt "stronger" - hard rejection if there is no information, request to cite, limit the scope of the context.
 - Add a simple verifier - a second prompt that checks the answer whithin the context.
+
+### Further Analysis
+
+| Question ID | TFDF | LLM | Verbatim |
+|:----------|:--------:|:--------:| :--------:|
+| 1 | 1 | 1 | - |
+| 2 | 0.5 | 0.5 | - |
+| 3 | 0.5 | 0.5 | - |
+| 4 | 0.5 | 1 | - |
+| 5 | 0.5 | 0.5 | - |
+| 6 | 1 | 1 | - |
+| 7 | 1 | 0 | - |
+| 8 | 1 | 0 | - |
+| 9 | 1 | 0.5 | - |
+| 10 | 0.5 | 0.5 | - |
+| 11 | 1 | 1 | - |
+| 12 | 1 | 1 | - |
+
+1 - True
+0.5 - Almost True (Noise, too many snippets, additional knowledge/opinion)
+0 - False
