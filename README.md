@@ -101,7 +101,11 @@ We have analysed the answers generated from the RAG model for both rule-based an
 | 10 | 0.5 | 0.5 | - |
 | 11 | 1 | 1 | - |
 | 12 | 1 | 1 | - |
+| Total | 9.5/12 | 7.5/12 | - |
+| Accuracy | 0.79 | 0.62 | - |
 
 1 - True
+
 0.5 - Almost True (Noise, too many snippets, additional knowledge/opinion)
+
 0 - False
