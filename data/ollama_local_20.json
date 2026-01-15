@@ -1,0 +1,693 @@
+[
+  {
+    "id": 1,
+    "question": "Was war der Ausgang der Abstimmung der Staatspolitischen Kommision über die Handhabung von Volksinitiativen die Grundrechte verletzen?",
+    "source_id": "20111220.gz",
+    "expected_answer": "13 Stimmen Annahme, 8 Stimmen dagegen, 2 Enthaltungen.",
+    "answer": "[ID: 20050927.gz]\n\nDie Frage lautet, was der Ausgang der Abstimmung der Staatspolitischen Kommission über die Handhabung von Volksinitiativen, die Grundrechte verletzen war.\n\nDie Antwort ist: Die Abstimmung fand mit 13 zu 5 Stimmen bei 1 Enthaltung statt.",
+    "answer_source_id": [
+      "20091210.gz",
+      "20180529.gz",
+      "20101217.gz",
+      "20111220.gz",
+      "20050317.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20091210.gz",
+        "snippet": "Wenn eine Volksmotion zustande kommt, muss sie in beiden Räten eine Mehrheit finden; erst dann wird das Anliegen der Regierung unterbreitet.  Das dauert relativ lange.  Abgelehnt werden von der Kommissionsmehrheit auch mit der internationalen Volksmotion einhergehende sektorielle Volksrechte.  Wie s"
+      },
+      {
+        "source_id": "20180529.gz",
+        "snippet": "Da haben sich insbesondere die Gemeinden und die Städte übergangen gefühlt.  Die finanziellen Konsequenzen für Städte und Gemeinden wurden nicht einmal berechnet.  Es reicht eben nicht, dass die Verpflichtung, dies zu beachten, nur in der Verfassung steht, sondern es gehört ebenfalls ins Gesetz.  Di"
+      },
+      {
+        "source_id": "20101217.gz",
+        "snippet": "Juni 2010 mit 14 zu 11 Stimmen an.  Anders als der Ständerat ist die Staatspolitische Kommission des Nationalrates nun der Ansicht, dass Rücktritte während der Legislaturperiode nicht verhindert werden sollen.  Sie spricht sich mit 13 zu 5 Stimmen bei 1 Enthaltung gegen die Motion aus.  Welches sind"
+      },
+      {
+        "source_id": "20111220.gz",
+        "snippet": "6, 6bis  Präsident (Walter Hansjörg, Präsident): Die Abstimmung gilt auch für die Artikel 1 bis 3 der Verordnung der Bundesversammlung über Alkoholgrenzwerte im Strassenverkehr (Vorlage 2).   [PAGE 2151] Abstimmung - Vote  Für den Antrag Hutter Markus ... 129 Stimmen Für den Antrag der Kommission .."
+      },
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Herr Hutter, ich möchte Ihnen eine Frage stellen.  Sie haben jetzt ausgeführt, und die Debatte hat es gezeigt, dass bei dieser Regelung bezüglich der Einigungskonferenz plötzlich andere Kriterien zur Anwendung kommen, als wenn der Rat über die einzelnen Budgetposten diskutiert - also eine ganz wesen"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Was war die Antwort von Andreas Babler auf die Frage, ob der Mars bald besiedelt wird?",
+    "source_id": null,
+    "expected_answer": "Information nicht enthalten. (Halluzinationstest)",
+    "answer": "Information nicht im Dokument enthalten.\n\nDa in dem bereitgestellten Textauszug keine spezifischen Informationen über Andreas Babler oder den Mars zu finden sind, kann ich keine genaue Antwort auf die Frage liefern.",
+    "answer_source_id": [
+      "20091126.gz",
+      "20040928.gz",
+      "20121210.gz",
+      "20170308.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20091126.gz",
+        "snippet": "Diese Verzögerungen will eigentlich niemand, und deswegen sollten Sie diese Lösung ablehnen.  Das fordert auch der ungekrönte Grossmeister des Bauhandwerker-Pfandrechts, Professor Rainer Schumacher.  Er hat für diesen Zweck extra einen ausführlichen Artikel geschrieben, in dem er nachweist, dass die"
+      },
+      {
+        "source_id": "20040928.gz",
+        "snippet": "Es betrifft zwar nicht unbedingt diesen Artikel; hier geht es darum, ob es Teilzeit- oder Vollzeitstudien sind.  Die Dauer beim Bachelor ist mindestens drei Jahre, und es kann in bestimmten Fällen auch mehr sein.  Aber die Regel sind die drei Jahre, und darüber hinaus kann man dann auch noch den Mas"
+      },
+      {
+        "source_id": "20091126.gz",
+        "snippet": "Solche Beispiele könnte ich Ihnen jetzt aufzählen.  Zusammengefasst: Dieser Vorschlag Jenny ist hochkompliziert; er bläht die Administration auf; Verzögerungen im Bauablauf sind vorprogrammiert.  Darum bitte ich Sie, dem Antrag der Minderheit zuzustimmen.  Noch einige wenige Bemerkungen zum Antrag B"
+      },
+      {
+        "source_id": "20121210.gz",
+        "snippet": "Trotzdem bzw.  gerade deshalb bitte ich Sie aber, [PAGE 2113] unserem Antrag zuzustimmen und damit auch den Beschluss des Ständerates zu bestätigen.  Die Voraussetzungen für Aufnahme dieses kantonalen Projektes fehlen, da es einfach nicht baureif ist.  Was heisst denn \"baureif\"?  Bei Projekten müsse"
+      },
+      {
+        "source_id": "20170308.gz",
+        "snippet": "- sind davon betroffen, vor allem auch solche, bei denen Ehegatten und Kinder im eigenen Betrieb mitarbeiten.  Auch viele Gastrobetriebe sind davon betroffen.  Hier treffen wir nicht nur die Falschen, sondern wir verursachen erneut einen massiv höheren Aufwand für die Beteiligten, die nun gar nichts"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Wie viele Anzeigen gaben es in den Jahren 2000 und 2015 in der Schweiz im Bezug auf Gewalt gegen Behörden und Beamte und in welchem Artikel werden diese festgehalten?",
+    "source_id": "20200302.gz",
+    "expected_answer": "2000: 744, 2015: 2808. Artikel 85 StGB.",
+    "answer": "Information nicht im Dokument enthalten.\n\nInformation nicht im Dokument enthalten.",
+    "answer_source_id": [
+      "20091126.gz",
+      "20191218.gz",
+      "20211129.gz",
+      "20050920.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20091126.gz",
+        "snippet": "Als langjähriges Mitglied dieser Institutionen werden wir über die Verwendung von Daten in Ausnahmefällen auf jeden Fall eine Kontrolle haben.  Als Zweites möchte ich auch noch auf die Strafbarkeit bei Steuerfragen zu sprechen kommen.  Die Schweiz verfügt seit dem Jahr 2000 über einen Vertrag mit de"
+      },
+      {
+        "source_id": "20091126.gz",
+        "snippet": "Aus diesen Gründen bitte ich Sie, der Minderheit zu folgen, weil auch das Prinzip der doppelten Strafbarkeit nicht mehr gegeben ist, wenn die Zweckbindung beim Datenaustausch nicht mehr garantiert oder nicht mehr wichtig ist.  Nun noch ein Wort zu Folgendem: Es ist erwähnt worden, es gehe uns ledigl"
+      },
+      {
+        "source_id": "20191218.gz",
+        "snippet": "Die Leidtragenden sind die Mitarbeitenden, und auch bei den Versicherungsunternehmen entsteht ein hoher Aufwand - höhere Kosten und damit höhere Prämien sind die Folgen.  Die Situation der einzelnen unter dem Kollektivvertrag versicherten Arbeitnehmenden, die zum Zeitpunkt der Beendigung eines Kolle"
+      },
+      {
+        "source_id": "20211129.gz",
+        "snippet": "Entscheidend bleibt, dass das Volk in seinem Willen genügend repräsentiert wird, wobei \"genügend repräsentiert\" auch \"vielfältig repräsentiert\" heisst.  In diesem Sinne bitte ich Sie, die Volksrechte nicht zu schmälern, indem Sie sie angeblich präzisieren, ohne dass eine zusätzliche Genauigkeit ents"
+      },
+      {
+        "source_id": "20050920.gz",
+        "snippet": "Das meiste Geld bleibt in diesen Firmen, und es wird jetzt eingesetzt, um ausländische Stromgesellschaften aufzukaufen.  Schauen Sie einmal, was die Atel mit ihren Gewinnen macht: Die verdient pro Kilowattstunde, die sie über den Gotthard leitet, 2 Rappen.  Das sind enorme Gewinne, die aus einem Mon"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Was ist nicht Inhalt von Artikel 13a?",
+    "source_id": "20050927.gz",
+    "expected_answer": "Es geht nicht darum, die Allgemeinheit vor einem ganz gefährlichen Menschen zu schützen, sondern um eine sogenannte Vorbereitungshaft und die Ausweitung der Dauer auf 6 Monate.",
+    "answer": "Information nicht im Dokument enthalten.",
+    "answer_source_id": [
+      "20050927.gz",
+      "20201201.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20050927.gz",
+        "snippet": "Warum eine solche Ausweitung?  Weil herausgefunden worden ist, dass 3 Monate offenbar nicht genügen, um sich durchzusetzen.  Mit anderen Worten: Es wird hier eigentlich einfach eine Massnahme ausgedehnt, um die Leute weich zu kriegen.  Das ist die Idee von Artikel 13a.  In Artikel 13b geht es dann n"
+      },
+      {
+        "source_id": "20050927.gz",
+        "snippet": "Die Beugehaft stellt eine gerichtliche Massnahme dar, die gegen Zeugen oder sonstige zu Zeugenaussagen verpflichtete Personen verhängt werden kann, wenn diese die Aussage verweigern, ohne ein Aussageverweigerungsrecht zu haben.  Das ist prozessrechtlich sehr umstritten.  Es ist ein Ausdruck aus dem"
+      },
+      {
+        "source_id": "20050927.gz",
+        "snippet": "3bis Biffer Die Art, wie hier in diesem Parlament debattiert wird, rührt vielleicht vom Bild her, das man von Asylsuchenden, von Ausländerinnen und Ausländern hat; entsprechend fallen die Voten aus.  Die Ratsmehrheit geht von bösen Absichten aus, die die Leute mitbringen, sie geht von einem ganz gep"
+      },
+      {
+        "source_id": "20050927.gz",
+        "snippet": "Dass die Mehrheit unserer Kommission die Beugehaft auf Wunsch der Verwaltung in Durchsetzungshaft umgetauft hat, ändert nichts daran, dass diese Massnahme nicht ins Ausländerrecht gehört.  Zum zweiten Punkt: Die Massnahmen stellen eine massive Verschärfung dar.  Was hat der Ständerat beschlossen?  I"
+      },
+      {
+        "source_id": "20201201.gz",
+        "snippet": "Bei Buchstabe cbis geht es um die Integration der befristeten Arbeitsverhältnisse respektive um die Streichung der Frist gemäss Buchstabe c. Die Kommission empfiehlt Ihnen mit 16 zu 8 Stimmen, diese beiden Minderheitsanträge abzulehnen.  Ähnlich ist auch die Minderheit Bendahan zu Artikel 17 Absatz"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Was sagt Frau Bühlmann in Bezug auf Jugendliche?",
+    "source_id": "20050927.gz",
+    "expected_answer": "Sie bezeichnet die Freiheitsberaubung von Jugendlichen als 'schwarzen Punkt' und 'schwarzen Tatbestand' in den Gesetzen.",
+    "answer": "Information nicht im Dokument enthalten.\n\nDa die Frage nach dem Ausmaß der Haftzeit für Minderjährige und Jugendliche fragt, kann ich keine spezifischen Aussagen über die Handlungen von Frau Bühlmann treffen. \n\nAllerdings ist zu erwähnen, dass es in Absatz 1 heißt, dass Asylsuchende während der ersten drei Monate nach dem Einreichen eines Asylgesuches keine Erwerbstätigkeit ausüben können sollen.",
+    "answer_source_id": [
+      "20050927.gz",
+      "20040507.gz",
+      "20040504.gz",
+      "20011002.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20050927.gz",
+        "snippet": "Muss man dafür wirklich zwei Jahre Haft aussprechen?  Und dann ist da die Haft für die Minderjährigen.  Ich möchte nochmals darauf zurückkommen, dass es ein ganz schwieriger, schlimmer Punkt ist, dass wir Minderjährige einschliessen.  Frau Bühlmann hat es gesagt, das ist Freiheitsberaubung; und Juge"
+      },
+      {
+        "source_id": "20040507.gz",
+        "snippet": "Wir vertreten ebenfalls die Auffassung, dass die Mehrheit zu unterstützen sei, stellen dieser dann aber den Antrag Müller Philipp, den wir übernehmen, entgegen.  Den Antrag der Minderheit I (Schibli) zu Absatz 1 lehnen wir ebenfalls ab, aus zwei Gründen: Schlicht und einfach schreibt die EMRK in Art"
+      },
+      {
+        "source_id": "20040504.gz",
+        "snippet": "So können Sie es natürlich nicht machen, wenn es Ihnen nicht passt, einfach zu sagen, Sie hätten im Protokoll nichts gefunden.  Ich gehe zuerst von Absatz 1 aus.  Dort scheint unbestritten zu sein, dass während der ersten drei Monate nach dem Einreichen eines Asylgesuches Asylsuchende keine Erwerbst"
+      },
+      {
+        "source_id": "20011002.gz",
+        "snippet": "(Heiterkeit) Also, mein Antrag geht dahin, dass keine neuen solchen Mandate angenommen werden können.  Wie mir bekannt ist, haben Sie ja schon vorher Einsitz in dieser Firma gehabt.  Das wollen wir ja mit meinem Antrag eben gerade nicht verhindern.  Gestatten Sie, dass ich Frau Bühlmann eine Frage s"
+      },
+      {
+        "source_id": "20050927.gz",
+        "snippet": "Deshalb macht diese Verdoppelung der Haftdauer keinen Sinn; sie ist teuer, sie ist ungerecht gegenüber diesen Leuten, und sie bringt nur eines: einfach noch mehr Aggression auf diese Situation.  Deshalb bitte ich Sie sehr, den Antrag der Minderheit zu unterstützen.  Die Fraktionschefin der Grünen ha"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Mit welchem Argument wird im Text gefordert, die theoretischen Führerprüfungen auf die vier Landessprachen zu beschränken?",
+    "source_id": "20050317.gz",
+    "expected_answer": "Damit Fremdsprachige dazu motiviert werden, die Landessprache zu lernen, was ihre Integration verbessert.",
+    "answer": "Information nicht im Dokument enthalten.",
+    "answer_source_id": [
+      "20170911.gz",
+      "20111220.gz",
+      "20150603.gz",
+      "20140312.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20170911.gz",
+        "snippet": "Das sieht die Mehrheit auch anders: Die Rechtsunsicherheit wird nicht vergrössert, wenn man Erlasse befristet erlässt, denn so ist die Rechtssicherheit natürlich bis zu einem bestimmten Zeitpunkt gegeben.  Es gehört zu guter Politik, dass man nicht gerade am Tag des Ablaufdatums zu debattieren begin"
+      },
+      {
+        "source_id": "20111220.gz",
+        "snippet": "Wenn es aber \"mindestens\" heisst, so heisst das \"noch mehr als das\".  Das hat der Bundesrat im Zusatzbericht jetzt wieder ausgeführt.  Gerade weil das nicht von vornherein absolut klar ist - vor allem für Leute, die nicht Spezialisten sind -, macht es Sinn, dies im Dialog, wie das Frau Bundesrätin S"
+      },
+      {
+        "source_id": "20170911.gz",
+        "snippet": "Die Meinung der Pro-Seite, die einhellige Meinung in dieser Kommission, ist, dass wir es hier bei den Staatsunternehmen mit einem stark regulierten Markt zu tun haben, der eigentlich kein Markt mehr ist.  Das Bundesratsgehalt scheint uns natürlich eine gute Referenzgrösse, wenn man berücksichtigt, d"
+      },
+      {
+        "source_id": "20150603.gz",
+        "snippet": "2005 kostete ein Halbtaxabonnement 150 Franken, heute sind es 175 Franken, also 16 Prozent mehr.  Die allgemeine Teuerung betrug im gleichen Zeitraum rund 3,7 Prozent.  Fazit: Wer Bahn, Bus und Tram fährt, bezahlt im Vergleich zu den Preisen von 2005 einen Fünftel mehr als die Autofahrer.  Von daher"
+      },
+      {
+        "source_id": "20140312.gz",
+        "snippet": "Ich muss Ihnen sagen, eine Firma, die es ausschliesslich dafür gibt, um uns Rechnungen ins Haus zu schicken, und die dafür 50 Millionen Franken erhält, ist absolut unverhältnismässig.  Es ist auch nicht richtig, eine externe Inkassostelle damit zu beauftragen, wenn etwas Service public, also quasi S"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Welches Limit der budgetierten Einnahmen hält die EVP/EDU-Fraktion im Zusammenhang mit den Kompetenzen der Finanzdelegation für vernünftig?",
+    "source_id": "20050317.gz",
+    "expected_answer": "Ein halbes Prozent (0,5 %).",
+    "answer": "[ID: 20050927.gz]\n\nDie EVP/EDU-Fraktion hält ein Limit der budgetierten Einnahmen von einem halben Prozent der budgetierten Einnahmen für vernünftig.",
+    "answer_source_id": [
+      "20050317.gz",
+      "20040928.gz",
+      "20181127.gz",
+      "20040504.gz",
+      "20050308.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Aber wir finden, dass dieses Anliegen durchaus berechtigt ist, auch wenn bisher eigentlich eben nur dieser Swissair-Fall davon betroffen gewesen wäre.  Dass die Finanzdelegation, gemäss den Ausführungen von Kollegin Kleiner, praktisch nie wieder so etwas alleine bewilligen würde, nehme ich ihr gerne"
+      },
+      {
+        "source_id": "20040928.gz",
+        "snippet": "Der ständerätliche Beschluss sieht vor, dass die Zulassungsbestimmungen für die neuen Bereiche nur für eine Übergangsphase gelten würden.  Der Nachteil dabei: Dies kann bewirken, dass nach Ablauf der Frist bei der Zulassung in einzelnen Fachbereichen ein Problem entsteht, genauer gesagt, dass es zu"
+      },
+      {
+        "source_id": "20181127.gz",
+        "snippet": "Die Formel wurde erst einmal angewendet.  Das vorherige Jahr wurde sie, so neu ist sie, noch nicht angewendet.  Aufgrund rückläufiger Asylgesuche wurde diese Methode im Budget 2018 korrigiert.  Während es dem EJPD eigentlich egal ist, ob an der Methode festgehalten wird, machte das EFD, wie wir vorh"
+      },
+      {
+        "source_id": "20040504.gz",
+        "snippet": "Das entspricht der heutigen Konzeption und auch der Forderung der Mehrheit und der Fassung des Bundesrates.  Die Kann-Formulierung wird konsequent durchgezogen, und deshalb bitte ich Sie, im Rahmen des Konzeptes der Minderheit Lustenberger auch dem Antrag der Minderheit I zuzustimmen.  Die FDP-Frakt"
+      },
+      {
+        "source_id": "20050308.gz",
+        "snippet": "Diese Indiskretionen können je länger, je mehr in der Sonntagspresse nachgelesen werden.  Wer die Sonntagspresse gelesen hat, konnte sehen, dass ein vertraulicher Bericht, nämlich zu den Zwangsmassnahmen im Ausländerrecht, gross erschien, das Wort \"vertraulich\" war sehr gut ersichtlich.  Es kann ja"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Welche drei Standorte werden im Zusammenhang mit dem Stationierungskonzept der Luftwaffe genannt, deren Betrieb laut dem Sprecher heute nicht mehr gewährleistet ist?",
+    "source_id": "20080918.gz",
+    "expected_answer": "Meiringen, Payerne und Sitten.",
+    "answer": "*   Payerne\n*   Meiringen\n*   Sitten",
+    "answer_source_id": [
+      "20070305.gz",
+      "20080918.gz",
+      "20191218.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20070305.gz",
+        "snippet": "Zugleich werden jedoch die speziellen Events, die eben gerade durch diesen Flugplatz organisiert werden und Tausende bis Zehntausende von Touristinnen und Touristen anziehen, ignoriert.  Es gibt also auch einen touristischen Nutzen dieser Anlage.  Frau Teuscher, Sie haben kritisiert, dass Meiringen"
+      },
+      {
+        "source_id": "20080918.gz",
+        "snippet": "Wir beantragten auch erfolglos, den Milizgedanken in unserer Armee wieder zu stärken.  Dies wäre staatspolitisch sehr wichtig und war immer auch eine der Stärken unserer Armee.  Dank ihrem Milizcharakter ist die Armee in der Bevölkerung abgestützt, sie profitiert vom Wissen der Wehrmänner in der Aus"
+      },
+      {
+        "source_id": "20191218.gz",
+        "snippet": "Das ist natürlich auch gegenüber dem Steuerzahler und der Steuerzahlerin absolut transparent und korrekt.  Die Kommission hat sich heute Morgen mit 19 zu 5 Stimmen für diese 60 Prozent Offsets entschieden.  Ich möchte hier erwähnen, dass es Mitglieder der Grünen, der Grünliberalen und der SP gab, di"
+      },
+      {
+        "source_id": "20070305.gz",
+        "snippet": "Es ist aber auch eine Tatsache - dass sich der Gemeinderat von Meiringen in corpore für den Flugplatz ausspricht, spricht eben Bände -: Der Flugplatz Meiringen ist einer der grössten Arbeitgeber in der Region.  Er bietet zurzeit 189 Mitarbeitenden und, was für eine solche Randregion eben ganz eminen"
+      },
+      {
+        "source_id": "20070305.gz",
+        "snippet": "Das bedeutet zwangsläufig mehr Flugbewegungen in diesen touristisch sehr sensiblen Regionen.  Dass der Flugplatz Meiringen akzeptiert ist und nach wie vor auch akzeptiert würde, zeigt auch das Schreiben des Hotellerievereins Brienz vom 31.  Januar 2007, in dem in einem der zehn Forderungspunkte ganz"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Was ist die verfahrensrechtliche Konsequenz, wenn bei der Legislaturplanung ein Ablehnungsantrag zu einer spezifischen Ziffer gutgeheissen wird?",
+    "source_id": "20080918.gz",
+    "expected_answer": "Die entsprechende Ziffer wird aus der Vorlage gestrichen. Die Gesamtvorlage scheitert jedoch nicht.",
+    "answer": "[ID: 20050927.gz]\n\nDie verfahrensrechtliche Konsequenz, wenn bei der Legislaturplanung ein Ablehnungsantrag zu einer spezifischen Ziffer gutgeheissen wird, ist nicht explizit im bereitgestellten Textauszug erwähnt. \n\nInformation nicht im Dokument enthalten.",
+    "answer_source_id": [
+      "20080918.gz",
+      "20211129.gz",
+      "20191218.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20080918.gz",
+        "snippet": "2, 2bis Proposition de la commission Adhérer à la décision du Conseil des Etats Nach langen, manchmal zähen, aber immer konstruktiven Verhandlungen sind wir heute mit der Legislaturplanung auf der Zielgeraden.  Legislaturziele basieren auf Kompromissen, und jede Partei musste da die eine oder andere"
+      },
+      {
+        "source_id": "20211129.gz",
+        "snippet": "Ich bitte Sie, wie gesagt, bei der ersten Differenz der Mehrheit der vorberatenden Kommission und bei der zweiten Differenz der Minderheit II (Tuena) oder allenfalls der Minderheit I (de Quattro) zu folgen.  Wir sind jetzt eigentlich am Ende dieser Beratung angelangt.  Wir haben sehr lange auf die V"
+      },
+      {
+        "source_id": "20080918.gz",
+        "snippet": "Gallen 80 Prozent der Betriebe unter 100 Quadratmeter gross seien.  Können Sie mir bitte sagen, woher Sie diese Zahlen haben und wie es gesamtschweizerisch aussieht?  Mich würde das auch interessieren.  Unabhängig davon, wo man in Bezug auf diese Legislaturplanung politisch steht, sind wir der Meinu"
+      },
+      {
+        "source_id": "20191218.gz",
+        "snippet": "Sehr geehrter Herr Kollege Portmann, Sie zwingen uns dazu, diese Volksabstimmung nochmals durchzuführen und die entsprechenden Kosten zu verursachen.  Was aber die Mitte-Fraktion will, ist etwas anderes.  Sie will endlich, endlich dieses Problem lösen.  Sie wissen es selber, Herr Portmann: Wenn man"
+      },
+      {
+        "source_id": "20080918.gz",
+        "snippet": "Ich bitte Sie namens der Mehrheit der Kommission, unserem Antrag, d. h. dem Kompromissvorschlag, zuzustimmen.  Für unsere Fraktion ist inhaltlich hier bereits ein Votum erfolgt.  Ich möchte mich deshalb zum Abschluss dieser Übung auf ein paar Gedanken zur neuen Form der Legislaturplanung konzentrier"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Was gehört zu den Mikroverunreinigungen in Gewässern?",
+    "source_id": "20201217.gz",
+    "expected_answer": "Medikamentenrückstände, Hormone, Schwermetalle, Haushalt- und Industriechemikalien.",
+    "answer": "[ID: 20050927.gz]\n\nDie Mikroverunreinigungen in Gewässern umfassen unter anderem:\n\n*   Medikamentenrückstände\n*   Hormone\n*   Schwermetalle\n*   große Mengen an Haushalt- und Industriechemikalien, also möglicherweise auch Pestizide aus dem Haushalt, aus den Gärten usw.\n\nEs ist jedoch nicht klar, ob diese Liste vollständig ist.",
+    "answer_source_id": [
+      "20201217.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Die Kommission kommt zum Schluss, dass sexuelle Belästigung am und neben dem Arbeitsplatz bekämpft werden muss, der Ansatz der Beweislasterleichterung jedoch kontraproduktiv ist und am Schluss wohl mehr Schaden als Nutzen erzielt.  Die Kommission hat deshalb der Standesinitiative mit 14 zu 10 Stimme"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "4500 Kilometer sind aber durch die Abwasserreinigungsanlagen verunreinigt.  Die WAK-N möchte auch hier handeln.  Ich habe es eingangs erwähnt, wir wollen das Thema \"saubere Gewässer\" ganzheitlich angehen.  60 Prozent der Mikroverunreinigungen, die in unsere Gewässer gelangen, stammen aus den Abwasse"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Entsprechend geben wir auch der parlamentarischen Initiative Silberschmidt 20.406, \"Unternehmerinnen und Unternehmer, welche Beiträge an die Arbeitslosenversicherung bezahlen, sollen auch gegen Arbeitslosigkeit versichert sein\", keine Folge.  Wir bitten Sie, unserer parlamentarischen Initiative Folg"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Heute besteht der Auftrag, bis 2035 rund 190 Abwasserreinigungsanlagen mit einer vierten Reinigungsstufe auszurüsten.  Bei 550 Abwasserreinigungsanlagen soll nichts gemacht werden.  Dies ist vor dem Hintergrund der Ernsthaftigkeit, mit welcher heute in der Schweiz über die Wasserqualität diskutiert"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Im Bereich der ARA ist die Kommission indes der Meinung, dass noch Verbesserungspotenzial besteht.  Deshalb sind diese beiden Motionen eingereicht worden.  Frau Bundespräsidentin, Sie werden verstehen, dass ich von der Ablehnung des Bundesrates der Motion zu den Mikroverunreinigungen überrascht bin."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Wie hoch ist der Stickstoffüberschuss, der aus Abwasserreinigungsanlagen stammt, und wie verhält sich dieser Wert im Vergleich zum Anteil der Landwirtschaft?",
+    "source_id": "20201217.gz",
+    "expected_answer": "Abwasser: gut 20'000 Tonnen. Landwirtschaft: 36'000 Tonnen.",
+    "answer": "Hier ist die Antwort auf Ihre Frage:\n\n* Der Stickstoffüberschuss, der aus Abwasserreinigungsanlagen stammt, beträgt 20000 Tonnen.\n* Im Vergleich zum Anteil der Landwirtschaft beträgt dieser Wert 36000 Tonnen (insgesamt 97000 Tonnen) oder etwa 20% des gesamten Stickstoffüberschusses.\n\nQuelle: [ID: 20050927.gz]",
+    "answer_source_id": [
+      "20050317.gz",
+      "20201217.gz",
+      "20121211.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Ich bin Landwirt.  Die Landwirtschaft hat im Budget 2005 ganze 128 Millionen Franken oder 3,3 Prozent weniger.  Jetzt drohen mit dem Entlastungsprogramm 2004 weitere 70 Millionen Franken Kürzung.  Ich frage Sie: Nehmen Sie in Ihrer Motion die Landwirtschaft aus, oder wie wollen Sie sonst die Landwir"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Deshalb hat die WAK-N die Kommissionsmotion 20.4262, \"Massnahmen zur Elimination von Mikroverunreinigungen für alle Abwasserreinigungsanlagen\", mit 16 zu 0 Stimmen bei 7 Enthaltungen gutgeheissen.  Eine zweite Kommissionsmotion betrifft die Stickstoffemissionen aus den Abwasserreinigungsanlagen.  St"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Eine zweite Kommissionsmotion betrifft die Stickstoffemissionen aus den Abwasserreinigungsanlagen.  Stickstoffemissionen im Allgemeinen und Nitrateinträge ins Grundwasser im Speziellen sollen deutlich gesenkt werden.  Die Reinigungsleistung der Schweizer Abwasserreinigungsanlagen ist im internationa"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Hier wiederum ein Vergleich: In der Kommission wurde uns gesagt, dass wir in der Schweiz einen Stickstoffüberschuss von 97000 Tonnen haben.  36000 Tonnen kommen von der Landwirtschaft.  Hier hat dieser Rat letzte Woche mit der Annahme der parlamentarischen Initiative eine Reduktion beschlossen.  Gut"
+      },
+      {
+        "source_id": "20121211.gz",
+        "snippet": "dem Entwurf des Bundesrates zu folgen.  Man kann nicht Agrarbotschaften formulieren und dann beim Budget einfach wieder davon absehen und Aufstockungen beschliessen - so entwerten wir geführte Debatten und unterlaufen sie regelrecht.  Wenn ich höre, wie Leo Müller argumentiert, wonach wir mit diesen"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Mit welchen zwei Argumenten begründete der Bundesrat ursprünglich seinen Antrag auf Ablehnung der Motion Français (19.3750) zur Energieautonomie?",
+    "source_id": "20201217.gz",
+    "expected_answer": "1. Die Bundesverwaltung bezieht bereits 100% erneuerbaren Strom. 2. Vollständige Autonomie ist weder betriebs- noch volkswirtschaftlich sinnvoll.",
+    "answer": "[ID: 20050927.gz]\n\nInformation nicht im Dokument enthalten.\n\nEs ist jedoch zu beachten, dass der Bundesrat in seiner Entscheidung den Begriff \"Autonomie\" verwendet hat, aber die genauen Argumente, auf denen er seinen Antrag auf Ablehnung der Motion Français (19.3750) begründet hat, nicht explizit angegeben wurden.\n\nAllerdings kann festgestellt werden, dass der Bundesrat in seiner Entscheidung den Begriff \"Eingriff in die Eigentumsgarantie\" verwendet hat, um seine Ablehnung der Motion zu rechtfertigen.",
+    "answer_source_id": [
+      "20201217.gz",
+      "20190320.gz",
+      "20050613.gz",
+      "20091210.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Es ist dann sehr einfach, zum Beispiel die Ehefrau rasch einzustellen und sie dann in Kurzarbeit oder sogar in die Arbeitslosigkeit zu schicken.  Deshalb hat auch das Bundesgericht bereits mehrfach entschieden, dass diese Unselbstständigen in arbeitgeberähnlicher Stellung keine Beiträge erhalten sol"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Die WAK hat der Kommissionsmotion 20.4261, \"Reduktion der Stickstoffeinträge aus den Abwasserreinigungsanlagen\", mit 15 zu 0 Stimmen bei 4 Enthaltungen zugestimmt.  Der Bundesrat befürwortet die Annahme dieser Motion ebenfalls.  Besten Dank für die Unterstützung der beiden Motionen.  Mit der Motion"
+      },
+      {
+        "source_id": "20190320.gz",
+        "snippet": "Ich habe ihn jetzt auf 150 Franken festgelegt.  Früher wollte ich einmal 300 Franken, aber man muss auch ein wenig bescheiden sein.  Das wäre eine kleine Wertschätzung für die grosse Arbeit, die immer wieder geleistet wird.  Leider lehnt der Bundesrat meine Motion mit wenig überzeugenden Argumenten"
+      },
+      {
+        "source_id": "20050613.gz",
+        "snippet": "Der Bundesrat begründet seinen Antrag auf Ablehnung der Motion wortreich und mit einer ganzen Reihe von Argumenten, warum ein Einzug der Tatwaffe Fahrzeug \"nicht sinnvoll\" und \"nicht angezeigt\" bzw.  \"unverhältnismässig\" wäre; doch nicht einer dieser Gründe ist auch nur halbwegs überzeugend.  Er spr"
+      },
+      {
+        "source_id": "20091210.gz",
+        "snippet": "Der Bundesrat lehnte die Motion ab mit der Begründung, dass es nicht opportun sei, eine Regelung auf Gesetzesstufe zu erlassen, weil der Bundesrat diese Massnahmen auf dem Verordnungsweg regeln könne.  Der Ständerat hat die Motion am 4.  Juni 2009 indes ohne Gegenstimme angenommen.  Bundesrat Couche"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Wie viele Fälle pro Jahr betrifft die betreffende Hilfe laut Bundesamt für Sozialversicherung in der Schweiz?",
+    "source_id": "20060918.gz",
+    "expected_answer": "Laut Bundesamt für Sozialversicherung handelt es sich um zwei bis drei Fälle pro Jahr.",
+    "answer": "[ID: 20050927.gz]\n\nLaut dem Bundesamt für Sozialversicherung in der Schweiz beträgt die Anzahl der Fälle pro Jahr, für die die betreffende Hilfe gewährt wird, zwei bis drei Fälle.",
+    "answer_source_id": [
+      "20060918.gz",
+      "20040311.gz",
+      "20020305.gz",
+      "20140318.gz",
+      "20020606.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20060918.gz",
+        "snippet": "Ich werde ihnen sagen, dass sie eine andere Betriebsrichtung einschlagen sollen, bei der sie nicht mehr die schweren Melkeimer herumtragen müssen.  Aber um nochmals darauf zurückzukommen: Auch von der Bundesverwaltung, vom Bundesamt für Sozialversicherung, wurde uns ganz klar gesagt, dass es sich in"
+      },
+      {
+        "source_id": "20040311.gz",
+        "snippet": "Stolpern unsere Forscherinnen und Forscher nun über ihren eigenen Erfolg, indem das Geld für diese Projekte fehlt und die vorhandenen Finanzen nur für jeweils 28 Monate reichen, obwohl die Projekte meist drei bis vier Jahre dauern?  Ich möchte Sie darauf hinweisen, dass diese Projekte für viele jung"
+      },
+      {
+        "source_id": "20020305.gz",
+        "snippet": "Verpackt oder nicht: Die APK hat diesem \"Filibusterantrag\" mit 20 zu 3 Stimmen eine klare Abfuhr erteilt, und auch ich empfehle Ihnen im Namen der SP-Fraktion, das Gleiche in der gleichen Klarheit zu tun.  Für uns ist plausibel und vernünftig, die Laufzeit des Rahmenkredites bis zum Ende der Gültigk"
+      },
+      {
+        "source_id": "20140318.gz",
+        "snippet": "Darum sage ich Ja zum indirekten Gegenvorschlag, Ja zur Motion und ganz überzeugt Ja zu dieser Stipendien-Initiative.    Die Beratung dieses Geschäftes wird unterbrochen Le débat sur cet objet est interrompu Wir erachten es grundsätzlich als unnötig, der Stipendien-Initiative einen Gegenvorschlag bz"
+      },
+      {
+        "source_id": "20020606.gz",
+        "snippet": "Die SVP setzt sich vorab für die Forschungstätigkeit in der Privatwirtschaft ein, natürlich zusammen mit Universitäten und Forschungsinstituten.  Es soll primär in Köpfe investiert werden und nicht in Strukturen und Organisationen.  Diese Grundhaltung veranlasst uns natürlich zu einer gewissen Skeps"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Wieviel leistet der Bund für die Kulturförderung?",
+    "source_id": "20240101.gz",
+    "expected_answer": "Der Bund ist aus Gründen der Kohäsion der multikulturellen Schweiz mitverantwortlich für die Kulturförderung und leistet rund 13 Prozent der öffentlichen Unterstützung.",
+    "answer": "Information nicht im Dokument enthalten.\n\nInformation nicht im Dokument enthalten.\n\nDie genaue Höhe der von dem Bund für die Kulturförderung geleisteten Leistungen ist nicht im Dokument enthalten.",
+    "answer_source_id": [
+      "20110926.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20110926.gz",
+        "snippet": "Der Anteil der Kulturförderung am Bundesbudget ist in der Schweiz mit 0,4 Prozent relativ gering.  Kultur hat ihren Wert und auch ihren Preis.  Unsere Fraktion ist deshalb der Auffassung, dass wir den einzelnen Institutionen mit dem Kulturförderungsgesetz verschiedene Aufgaben zugewiesen haben und n"
+      },
+      {
+        "source_id": "20110926.gz",
+        "snippet": "Mit der Botschaft wird erstmals eine Gesamtschau der Kulturförderung auf Bundesebene möglich.  Wir erachten das als absolut sinnvoll.  Die Kulturbotschaft legt die strategische Ausrichtung der Kulturpolitik des Bundes fest und definiert die Höhe der Finanzmittel des Bundes zur Umsetzung dieser Ziele"
+      },
+      {
+        "source_id": "20110926.gz",
+        "snippet": "Dritte Abstimmung - Troisième vote  Für den Antrag der Minderheit III ... 75 Stimmen Dagegen ... 87 Stimmen Schriftliche Antwort (Beilage) - Réponse écrite (annexe)  Schriftliche Antwort (Beilage) - Réponse écrite (annexe)  [PAGE 1648] Die CVP/EVP/glp-Fraktion begrüsst die Kulturbotschaft und ist so"
+      },
+      {
+        "source_id": "20110926.gz",
+        "snippet": "Ich bitte Sie im Namen der Freunde der Volkskultur um Zustimmung zu meinem Minderheitsantrag.  Das ist mir sehr bewusst, und ich bin auch sehr froh, dass die Kantone und vor allem auch viele Städte und grössere Gemeinden im Bereich der Kultur und der Kunst zusätzlich vieles leisten.  Trotzdem ist es"
+      },
+      {
+        "source_id": "20110926.gz",
+        "snippet": "Ebenso unterstützen wir den Beitrag zugunsten der Entwicklung der Sozialversicherung von Kulturschaffenden.  Dieser Antrag geht ja eigentlich auf einen Antrag von Toni Bortoluzzi zurück, der sich stark dafür eingesetzt hat, dass dieser Pensionskassenbeitrag für die Kulturschaffenden durchkommt.  Wir"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Was ist das Ziel der vorgeschlagenen Änderung des KVG in Artikel 25 Absatz 5?",
+    "source_id": "20161208.gz",
+    "expected_answer": "Die Änderung soll bestehende Lücken bei der Restfinanzierung von ausserkantonalen Pflegeheimaufenthalten schliessen und eine einheitliche nationale Regelung sicherstellen.",
+    "answer": "Information nicht im Dokument enthalten.",
+    "answer_source_id": [
+      "20050613.gz",
+      "20150611.gz",
+      "20200618.gz",
+      "20030304.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20050613.gz",
+        "snippet": "Das liegt auch in unserem Interesse und verhindert Folgekosten, wie das die Antwort des Bundesrates klar darlegt.  In Kantonen und Gemeinden wird bereits sehr vieles gemacht.  Es ist wichtig, dass diese Massnahmen koordiniert und gefördert werden.  Artikel 25a des Anag hat genau diese Zielsetzung."
+      },
+      {
+        "source_id": "20150611.gz",
+        "snippet": "Art.  26 Antrag der Mehrheit Abs.  2, 3 Zustimmung zum Beschluss des Ständerates  Antrag der Minderheit I (de Courten, Binder, Bortoluzzi, Clottu, Lohr, Parmelin, Stahl) Festhalten, aber: Abs.  2 ... a. Artikel 39 Absatz 1 Buchstabe f und 49a Absatz 4 erster Satz KVG ... ... c. Artikel 42a Absatz 2b"
+      },
+      {
+        "source_id": "20200618.gz",
+        "snippet": "Das KVG gibt zwar viele Möglichkeiten und lässt den Tarifpartnern grossen Spielraum für KVG-konforme Projekte.  Gemäss Artikel 41 Absatz 4 KVG können Versicherte bereits heute ihr Wahlrecht im Einvernehmen mit dem Versicherer auf Leistungen beschränken, die der Versicherer im Hinblick auf eine koste"
+      },
+      {
+        "source_id": "20030304.gz",
+        "snippet": "Der Zugriff auf die nötigen Polizei- und Personendaten wird gewährleistet.  Zudem können Synergien mit der Meldestelle für Geldwäscherei optimal ausgenutzt werden, und es kann auf das Know-how der Fachstelle zurückgegriffen werden.  Die Schaffung einer Meldestelle im Bundesamt für Polizei - auch die"
+      },
+      {
+        "source_id": "20150611.gz",
+        "snippet": "Es kommt dann zu verschiedenen Lösungen, nicht zu einer einheitlichen Lösung, und das würde dem Ziel einer effizienten und möglichst schnellen Einführung des Bundesgesetzes über das elektronische Patientendossier zuwiderlaufen.  Die Kommission war mit 20 zu 4 Stimmen für diesen Zusatz.  Wichtig ist"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Warum reicht das Produktesicherheitsrecht nicht aus, um die Risiken von Laserbehandlungen oder Ultraschall abzudecken?",
+    "source_id": "20161208.gz",
+    "expected_answer": "So geht es beim Produktesicherheitsrecht um die Sicherheit des Produktes an sich, es gibt aber keine Regelung betreffend Handhabung oder den unsachgemässen Einsatz des Produktes.",
+    "answer": "Information nicht im Dokument enthalten.",
+    "answer_source_id": [
+      "20161208.gz",
+      "20111220.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20161208.gz",
+        "snippet": "Nehmen wir also diesen Auftrag wahr, dort, wo es nötig ist.  Im Bereich der nichtionisierenden Strahlung ist es nötig.  Die Risiken sind erkannt und bekannt, und vor allem nehmen sie zu.  Darum sind Schutzmassnahmen nötig, zum Beispiel im Bereich der Laserbehandlungen in der Kosmetik, wo die Anwendu"
+      },
+      {
+        "source_id": "20161208.gz",
+        "snippet": "Wer nicht um die Gefährdung weiss, kann sich nicht davor schützen.  Wenn der Anbieter nicht kontrolliert wird, machen auch Information und Prävention wenig Sinn.  Das Gesetz ermöglicht es auch, auf die vor einiger Zeit neu aufgetauchte Problematik der Laserpointer einzugehen und bei Bedarf einzugrei"
+      },
+      {
+        "source_id": "20161208.gz",
+        "snippet": "Für die CVP-Fraktion ist das ein Thema, bei welchem tatsächlich Handlungsbedarf besteht.  Es ist ein Geschäft, das man nicht auf die leichte Schulter nehmen sollte.  Worum geht es?  Es geht letztlich darum, dass Lücken in der Schall- und Laserverordnung geschlossen werden; es werden zwei, drei wicht"
+      },
+      {
+        "source_id": "20161208.gz",
+        "snippet": "Das betrifft Produkte wie Blitzlampen zur Haarentfernung oder Ultraschallgeräte für kosmetische Behandlungen.  Das Gesetz sieht in diesem Bereich vor allem eine angemessene Ausbildung und Sachkunde der Anbieter vor, was auch Gegenstand diverser Minderheitsanträge in dieser Vorlage ist.  Bei Solarien"
+      },
+      {
+        "source_id": "20111220.gz",
+        "snippet": "Es geht um Autofahrer, um Hausfrauen, Geschäftsleute, um Menschen in der Freizeit, im Berufsverkehr, die wir jährlich insgesamt um viele, viele Millionen Franken Bussgelder erleichtern.  Ständig flattern 40-Franken-Rechnungen in die Haushalte wegen nichts und wieder nichts, wegen reiner Bagatellen."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Welches Ergebnis lieferte die Spliss-Studie bezüglich der Laufbahn von Schweizer Spitzenathleten?",
+    "source_id": "20140926.gz",
+    "expected_answer": "Die Spliss-Studie, bei welcher Spitzensportler befragt wurden, zeigt ein klares Bild auf: Die finanzielle Situation ist ein grosses Problem für eine Karriere von Schweizer Spitzenathletinnen und Spitzenathleten.",
+    "answer": "Information nicht im Dokument enthalten.",
+    "answer_source_id": [
+      "20140926.gz",
+      "20070612.gz",
+      "20201217.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20140926.gz",
+        "snippet": "Aufgrund des zusehends strategischen Verhaltens anderer Nationen ist davon auszugehen, dass es immer schwieriger werden wird, Medaillen zu gewinnen.  Die Sportnation Schweiz tut gut daran, nach Verbesserungspotenzialen zu suchen, und das nicht nur, um der guten Reputation der Schweiz als Sportnation"
+      },
+      {
+        "source_id": "20140926.gz",
+        "snippet": "Das Ziel der parlamentarischen Initiative bleibt bestehen.  Die Initiative selber ist zurückgezogen.  [PAGE 1825] Schriftliche Antwort (Beilage) - Réponse écrite (annexe)  Erklärung Urheberin/Urheber: nicht befriedigt Déclaration auteur/auteurs: non satisfait Erklärung Urheberin/Urheber: teilweise b"
+      },
+      {
+        "source_id": "20140926.gz",
+        "snippet": "Die Sportnation Schweiz tut gut daran, nach Verbesserungspotenzialen zu suchen, und das nicht nur, um der guten Reputation der Schweiz als Sportnation gerecht zu werden, sondern auch darum, weil ein attraktiver Spitzensport mit Toperfolgen für den Breitensport unabdingbar ist.  Um die hochgesteckten"
+      },
+      {
+        "source_id": "20070612.gz",
+        "snippet": "Den Finanzpolitikerinnen und -politikern sei in Erinnerung gerufen, dass es sich um einen Verpflichtungskredit handelt, der in der Vergangenheit nur zu vier Fünfteln ausgeschöpft worden ist.  Als Präsidentin des Forums Freiwilligenarbeit ist es mir wichtig zu betonen, wie zentral die freiwillige, eh"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Dieses Beispiel zeigt also auf, dass es aufgrund der geltenden Gesetzesbestimmungen nicht möglich ist, das Wasserkraftpotenzial zu erhalten oder angemessen auszubauen.  Wenn wir jetzt nicht reagieren und die Gewässerschutzbestimmungen mit dem Ziel der nachhaltigen Energieproduktion in Einklang bring"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": " Welches Problem wird bei der Erfassung von Raufutterimporten im Zusammenhang mit der Tierhaltung genannt?",
+    "source_id": "20210316.gz",
+    "expected_answer": "Sehr viele, die solche Equiden halten, haben wenig oder kein Land, und ein grosser Teil des importierten Heus geht tatsächlich, das hat Kollege Haab richtig festgestellt, an die Equidenfütterung.",
+    "answer": "[ID: 20050927.gz]\n\nDas Problem, das bei der Erfassung von Raufutterimporten im Zusammenhang mit der Tierhaltung genannt wird, ist die Verschärfung der Konkurrenz um den landwirtschaftlichen Boden.\n\nHier sind die relevanten Details:\n\n*   Die Ausgangslage für die Exportförderung und den Rahmenkredit stellt sich so, dass sich die Konkurrenz um den landwirtschaftlichen Boden noch verschärfen würde.\n*   Ohne Tierbeiträge fehlt der Anreiz, Tiere zu halten, vor allem dann, wenn die Hauptprodukte aus der Tierhaltung wie Milch und Fleisch tiefe Preise lösen.\n*   Die Versorgungssicherheit könnte durch die Einführung von Raufutterverzehrenden Nutztiere verbessert werden.",
+    "answer_source_id": [
+      "20030925.gz",
+      "20100310.gz",
+      "20101208.gz",
+      "20140305.gz",
+      "20191218.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20030925.gz",
+        "snippet": "Es geht nur darum, ob man ins Mikrofon reden kann.  Ich will Ihnen nicht einmal eine Nachfrage stellen, denn Sie können bei Herrn Bundesrat Couchepin nachlesen, wie die Antwort auf die Frage, die ich gestellt habe, wirklich lautet.  Wir wollen bei der AHV keine Fürsorgeverabreichung.  Die Ausgangsla"
+      },
+      {
+        "source_id": "20100310.gz",
+        "snippet": "Die Folge davon wäre, dass sich die Konkurrenz um den landwirtschaftlichen Boden noch verschärfen würde.  Ohne Tierbeiträge fehlt der Anreiz, Tiere zu halten, vor allem dann, wenn die Hauptprodukte aus der Tierhaltung wie Milch und Fleisch tiefe Preise lösen.  Für das Berggebiet könnte sich zusätzli"
+      },
+      {
+        "source_id": "20101208.gz",
+        "snippet": "Das will Frau Leutenegger Oberholzer mit ihrem Minderheitsantrag angehen.  Sie will Transparenz schaffen bezüglich der Tätigkeit transnational tätiger Gesellschaften.  Diese Gesellschaften sagen ja selber, sie seien eigentlich viel wichtiger als manche staatlichen Institutionen, und ihre Bürokratien"
+      },
+      {
+        "source_id": "20140305.gz",
+        "snippet": "Jährlich nutzen rund 10 Prozent der Bevölkerung diese Möglichkeit, und das ohne grosse Hürden, Kostenfolgen oder bürokratischen Aufwand.  In der Regel genügt das Ausfüllen eines einfachen und online verfügbaren Standardformulars.  Eine staatliche Monopolkasse hat verschiedene Möglichkeiten, mit den"
+      },
+      {
+        "source_id": "20191218.gz",
+        "snippet": "Schauen Sie einmal, wo die Gesuche gestellt werden: Sie werden am Ende der RS gestellt, bei Urlaubsgesuchen, die nicht bewilligt werden, bei Dienstverschiebungsgesuchen, die nicht bewilligt werden - die Zahlen beweisen es.  Das hat doch nichts mit Gewissenskonflikten zu tun.  Ich würde sogar sagen,"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Was verlangt die Motion Paupe?",
+    "source_id": "20010614.gz",
+    "expected_answer": "Die Motion Paupe verlangt - es wurde schon gesagt -, dass sich die Schweiz mit 2 Prozent an den Kosten zur Förderung der weltweiten Vernichtung der Chemiewaffen beteiligt und ihre Politik darauf ausrichtet.",
+    "answer": "Information nicht im Dokument enthalten.",
+    "answer_source_id": [
+      "20040602.gz",
+      "20100310.gz",
+      "20180529.gz",
+      "20130618.gz",
+      "20050317.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20040602.gz",
+        "snippet": "Dezember 2002 hat Ständerat Epiney aufgrund der damals erstmals unter dem Damoklesschwert der Schuldenbremse stattfindenden Debatte diese Motion eingereicht.  Der Bundesrat hat sie am 19.  Februar 2003 beantwortet und hat beantragt, die Ziffern 1 und 2 als Postulat zu überweisen und die Ziffer 3 abz"
+      },
+      {
+        "source_id": "20100310.gz",
+        "snippet": "Ein grosser Vorzug des biologischen Landbaus ist auch, dass er viel weniger zu Überproduktion führt, weil die Bedingungen dergestalt sind, dass man zum Beispiel weniger produzieren kann, wenn man Ausfälle hat, oder weil man mehr Land zur Verfügung haben muss, um das Vieh zu weiden und Ähnliches.  Zu"
+      },
+      {
+        "source_id": "20180529.gz",
+        "snippet": "Die Beschwerde hat aufschiebende Wirkung, es werden im Beschwerdeverfahren also keine Daten ausgetauscht, bevor der Entscheid vorliegt.  Also nochmals: Gegen diese Verfügung des Datenaustausches steht der individuelle Rechtsweg offen.  Diese Bestimmung in Artikel 19 Absatz 2 zweiter Satz wurde im Ra"
+      },
+      {
+        "source_id": "20130618.gz",
+        "snippet": "Wir sind jetzt auf Seite 7 der Fahne, dies, damit alle wissen, wo wir genau sind.  Zusammen mit der Vorlage wurden in der WAK des Nationalrates auch zwei Motionen behandelt; diese wurden angenommen.  Die erste (13.3449) war weniger umstritten, die zweite (13.3450) wurde in der WAK des Nationalrates"
+      },
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Fach- und Berufsverbände, Selbsthilfeorganisationen, Wirtschaftsverbände, Nichtregierungsorganisationen, Kirchen und Parteien sind Beispiele für derartige Vereinigungen, welche sehr häufig und regelmässig ihre Mitglieder und die Öffentlichkeit via eigene Zeitschriften informieren.  Klar ist, dass di"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "In welchen spezifischen Ländern leisten die rund siebzig Zivildienstleistenden pro Jahr derzeit ihre Auslandseinsätze zur Katastrophenbewältigung?",
+    "source_id": "20191218.gz",
+    "expected_answer": "(Test) Es wurden keine spezifischen Länder erwähnt.",
+    "answer": "[ID: 20050927.gz]\n\nInformation nicht im Dokument enthalten.",
+    "answer_source_id": [
+      "20191218.gz",
+      "20121211.gz",
+      "20091210.gz",
+      "20050308.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20191218.gz",
+        "snippet": "Das hat auch der Ständerat eingesehen und gesagt, dass man auf diese Massnahme verzichten kann.  Es sind wertvolle Dienste, die durch Zivildienstleistende im Ausland geleistet werden.  Diese Dienstleistungen fördern das Ansehen der Schweiz.  Sie verstärken unsere Bestrebungen, im Ausland besonders b"
+      },
+      {
+        "source_id": "20121211.gz",
+        "snippet": "Soll die Armee bei jedem Bürger \"bitti-bätti\" machen, damit sie genug Leute zusammenbekommt?  Inzwischen hat zum Beispiel die Schlammlawine bereits alles überrollt, und der Ort oder die Landschaft ist überschwemmt.  Wie stellen sich die Initianten die Durchführung von grösseren Sportanlässen mit ein"
+      },
+      {
+        "source_id": "20121211.gz",
+        "snippet": "Das wird von der Verfassung verlangt.  Frau Teuscher und Herr Glättli, der auch nicht im Saal ist: Mit Ihrer Freiwilligenarbeit kommen Sie da nicht mehr weiter.  Wenn Sie vom Soldaten im Interesse des Landes den Dienst unter Einsatz seines eigenen Lebens verlangen, kommen Sie mit der Freiwilligenarb"
+      },
+      {
+        "source_id": "20091210.gz",
+        "snippet": "Da gut zwei Drittel unserer Jugendlichen diesen Berufsweg wählen, ist dies von besonderer Bedeutung.  Noch etwas zu den Finanzen: Natürlich sind solche Programme nicht gratis.  Ich bin aber überzeugt, dass es sich hier um gut eingesetzte Mittel handelt und dass der Mehrwert, der daraus resultiert, e"
+      },
+      {
+        "source_id": "20050308.gz",
+        "snippet": "Die SVP-Fraktion forderte bei der letzten Kreditsprechung stets eine Gesamtschau und war bei den Verpflichtungskrediten äusserst zurückhaltend.  Besonders Mitfinanzierungen im Ausland hatten wir bei diesem Geschäft sehr kritisch betrachtet.  Ich staune jetzt eigentlich auch über die Aussagen aus der"
+      }
+    ]
+  }
+]
