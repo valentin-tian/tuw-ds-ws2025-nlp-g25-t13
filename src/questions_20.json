@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "question": "Was war der Ausgang der Abstimmung der Staatspolitischen Kommision über die Handhabung von Volksinitiativen die Grundrechte verletzen?",
+        "source_id": "20111220.gz",
+        "expected_answer": "13 Stimmen Annahme, 8 Stimmen dagegen, 2 Enthaltungen."
+    },
+    {
+        "id": 2,
+        "question": "Was war die Antwort von Andreas Babler auf die Frage, ob der Mars bald besiedelt wird?",
+        "source_id": null,
+        "expected_answer": "Information nicht enthalten. (Halluzinationstest)"
+    },
+    {
+        "id": 3,
+        "question": "Wie viele Anzeigen gaben es in den Jahren 2000 und 2015 in der Schweiz im Bezug auf Gewalt gegen Behörden und Beamte und in welchem Artikel werden diese festgehalten?",
+        "source_id": "20200302.gz",
+        "expected_answer": "2000: 744, 2015: 2808. Artikel 85 StGB."
+    },
+    {
+        "id": 4,
+        "question": "Was ist nicht Inhalt von Artikel 13a?",
+        "source_id": "20050927.gz",
+        "expected_answer": "Es geht nicht darum, die Allgemeinheit vor einem ganz gefährlichen Menschen zu schützen, sondern um eine sogenannte Vorbereitungshaft und die Ausweitung der Dauer auf 6 Monate."
+    },
+    {
+        "id": 5,
+        "question": "Was sagt Frau Bühlmann in Bezug auf Jugendliche?",
+        "source_id": "20050927.gz",
+        "expected_answer": "Sie bezeichnet die Freiheitsberaubung von Jugendlichen als 'schwarzen Punkt' und 'schwarzen Tatbestand' in den Gesetzen."
+    },
+    {
+        "id": 6,
+        "question": "Mit welchem Argument wird im Text gefordert, die theoretischen Führerprüfungen auf die vier Landessprachen zu beschränken?",
+        "source_id": "20050317.gz",
+        "expected_answer": "Damit Fremdsprachige dazu motiviert werden, die Landessprache zu lernen, was ihre Integration verbessert."
+    },
+    {
+        "id": 7,
+        "question": "Welches Limit der budgetierten Einnahmen hält die EVP/EDU-Fraktion im Zusammenhang mit den Kompetenzen der Finanzdelegation für vernünftig?",
+        "source_id": "20050317.gz",
+        "expected_answer": "Ein halbes Prozent (0,5 %)."
+    },
+    {
+        "id": 8,
+        "question": "Welche drei Standorte werden im Zusammenhang mit dem Stationierungskonzept der Luftwaffe genannt, deren Betrieb laut dem Sprecher heute nicht mehr gewährleistet ist?",
+        "source_id": "20080918.gz",
+        "expected_answer": "Meiringen, Payerne und Sitten."
+    },
+    {
+        "id": 9,
+        "question": "Was ist die verfahrensrechtliche Konsequenz, wenn bei der Legislaturplanung ein Ablehnungsantrag zu einer spezifischen Ziffer gutgeheissen wird?",
+        "source_id": "20080918.gz",
+        "expected_answer": "Die entsprechende Ziffer wird aus der Vorlage gestrichen. Die Gesamtvorlage scheitert jedoch nicht."
+    },
+    {
+        "id": 10,
+        "question": "Was gehört zu den Mikroverunreinigungen in Gewässern?",
+        "source_id": "20201217.gz",
+        "expected_answer": "Medikamentenrückstände, Hormone, Schwermetalle, Haushalt- und Industriechemikalien."
+    },
+    {
+        "id": 11,
+        "question": "Wie hoch ist der Stickstoffüberschuss, der aus Abwasserreinigungsanlagen stammt, und wie verhält sich dieser Wert im Vergleich zum Anteil der Landwirtschaft?",
+        "source_id": "20201217.gz",
+        "expected_answer": "Abwasser: gut 20'000 Tonnen. Landwirtschaft: 36'000 Tonnen."
+    },
+    {
+        "id": 12,
+        "question": "Mit welchen zwei Argumenten begründete der Bundesrat ursprünglich seinen Antrag auf Ablehnung der Motion Français (19.3750) zur Energieautonomie?",
+        "source_id": "20201217.gz",
+        "expected_answer": "1. Die Bundesverwaltung bezieht bereits 100% erneuerbaren Strom. 2. Vollständige Autonomie ist weder betriebs- noch volkswirtschaftlich sinnvoll."
+    },
+    {
+        "id": 13,
+        "question": "Wie viele Fälle pro Jahr betrifft die betreffende Hilfe laut Bundesamt für Sozialversicherung in der Schweiz?",
+        "source_id": "20060918.gz",
+        "expected_answer": "Laut Bundesamt für Sozialversicherung handelt es sich um zwei bis drei Fälle pro Jahr."
+    },
+    {
+        "id": 14,
+        "question": "Wieviel leistet der Bund für die Kulturförderung?",
+        "source_id": "20240101.gz",
+        "expected_answer": "Der Bund ist aus Gründen der Kohäsion der multikulturellen Schweiz mitverantwortlich für die Kulturförderung und leistet rund 13 Prozent der öffentlichen Unterstützung."
+    },
+    {
+        "id": 15,
+        "question": "Was ist das Ziel der vorgeschlagenen Änderung des KVG in Artikel 25 Absatz 5?",
+        "source_id": "20161208.gz",
+        "expected_answer": "Die Änderung soll bestehende Lücken bei der Restfinanzierung von ausserkantonalen Pflegeheimaufenthalten schliessen und eine einheitliche nationale Regelung sicherstellen."
+    },
+    {
+        "id": 16,
+        "question": "Warum reicht das Produktesicherheitsrecht nicht aus, um die Risiken von Laserbehandlungen oder Ultraschall abzudecken?",
+        "source_id": "20161208.gz",
+        "expected_answer": "So geht es beim Produktesicherheitsrecht um die Sicherheit des Produktes an sich, es gibt aber keine Regelung betreffend Handhabung oder den unsachgemässen Einsatz des Produktes."
+    },
+    {
+        "id": 17,
+        "question": "Welches Ergebnis lieferte die Spliss-Studie bezüglich der Laufbahn von Schweizer Spitzenathleten?",
+        "source_id": "20140926.gz",
+        "expected_answer": "Die Spliss-Studie, bei welcher Spitzensportler befragt wurden, zeigt ein klares Bild auf: Die finanzielle Situation ist ein grosses Problem für eine Karriere von Schweizer Spitzenathletinnen und Spitzenathleten."
+    },
+    {
+        "id": 18,
+        "question": " Welches Problem wird bei der Erfassung von Raufutterimporten im Zusammenhang mit der Tierhaltung genannt?",
+        "source_id": "20210316.gz",
+        "expected_answer": "Sehr viele, die solche Equiden halten, haben wenig oder kein Land, und ein grosser Teil des importierten Heus geht tatsächlich, das hat Kollege Haab richtig festgestellt, an die Equidenfütterung."
+    },
+    {
+        "id": 19,
+        "question": "Was verlangt die Motion Paupe?",
+        "source_id": "20010614.gz",
+        "expected_answer": "Die Motion Paupe verlangt - es wurde schon gesagt -, dass sich die Schweiz mit 2 Prozent an den Kosten zur Förderung der weltweiten Vernichtung der Chemiewaffen beteiligt und ihre Politik darauf ausrichtet."
+    },
+    {
+        "id": 20,
+        "question": "In welchen spezifischen Ländern leisten die rund siebzig Zivildienstleistenden pro Jahr derzeit ihre Auslandseinsätze zur Katastrophenbewältigung?",
+        "source_id": "20191218.gz",
+        "expected_answer": "(Test) Es wurden keine spezifischen Länder erwähnt."
+    }
+]
