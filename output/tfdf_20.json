@@ -1,0 +1,247 @@
+[
+  {
+    "id": 1,
+    "question": "Was war der Ausgang der Abstimmung der Staatspolitischen Kommision über die Handhabung von Volksinitiativen die Grundrechte verletzen?",
+    "source_id": "20111220.gz",
+    "expected_answer": "13 Stimmen Annahme, 8 Stimmen dagegen, 2 Enthaltungen.",
+    "answer": "- Die Staatspolitische Kommission (SPK) stimmte mit 13 zu 8 Stimmen bei 2 Enthaltungen für eine wichtige Etappe im Umgang mit Volksinitiativen, die Grundrechte verletzen.  \n- Ziel ist es, eine Lösung zu finden, wie mit solchen Initiativen umgegangen wird, insbesondere im Zusammenhang mit dem Völkerrecht und der Europäischen Menschenrechtskonvention (EMRK).  \n- Die Kommission will damit sicherstellen, dass Volksinitiativen, die angenommen werden, auch tatsächlich so umgesetzt werden können, ohne gegen Grundrechte oder internationales Recht zu verstossen.  \n- Diese Etappe soll den Weg ebnen, damit in ein bis zwei Jahren eine detaillierte und seriöse Diskussion und Beschlussfassung erfolgen kann.  \n- Die Abstimmung in der SPK war somit ein Ja zur Fortsetzung des Prozesses und zur Ausarbeitung einer Vorlage durch den Bundesrat.  \n[ID: 20050927.gz]",
+    "answer_source_id": [
+      "20111220.gz",
+      "20190320.gz"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Was war die Antwort von Andreas Babler auf die Frage, ob der Mars bald besiedelt wird?",
+    "source_id": null,
+    "expected_answer": "Information nicht enthalten. (Halluzinationstest)",
+    "answer": "Information nicht im Dokument enthalten. [ID: 20050927.gz]",
+    "answer_source_id": [
+      "20020311.gz",
+      "20060918.gz",
+      "20150914.gz",
+      "20190320.gz",
+      "20030605.gz"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Wie viele Anzeigen gaben es in den Jahren 2000 und 2015 in der Schweiz im Bezug auf Gewalt gegen Behörden und Beamte und in welchem Artikel werden diese festgehalten?",
+    "source_id": "20200302.gz",
+    "expected_answer": "2000: 744, 2015: 2808. Artikel 85 StGB.",
+    "answer": "- Im Jahr 2000 gab es 774 Anzeigen wegen Gewalt gegen Behörden und Beamte in der Schweiz.  \n- Im Jahr 2015 stieg die Zahl der Anzeigen auf 2808, was einer Steigerung von über 250 Prozent entspricht.  \n- Diese Delikte sind im Artikel 285 des Strafgesetzbuches (StGB) festgehalten, der Gewalt und Drohung gegen Behörden und Beamte betrifft.  \n[ID: 20191114-15_Rechtsfragen_NR]",
+    "answer_source_id": [
+      "20200302.gz",
+      "20170502.gz"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Was ist nicht Inhalt von Artikel 13a?",
+    "source_id": "20050927.gz",
+    "expected_answer": "Es geht nicht darum, die Allgemeinheit vor einem ganz gefährlichen Menschen zu schützen, sondern um eine sogenannte Vorbereitungshaft und die Ausweitung der Dauer auf 6 Monate.",
+    "answer": "- Artikel 13a behandelt nicht den Schutz der Allgemeinheit vor einem gefährlichen Menschen; dies wird von den Justizbehörden übernommen, wenn jemand wirklich gefährlich ist.  \n- Stattdessen geht es bei Artikel 13a um die Vorbereitungshaft, also darum, während einer Haft einen Entscheid über einen möglichen Tatbestand vorzubereiten.  \n- Artikel 13a beinhaltet keine Beugehaft im strafprozessrechtlichen Sinn, da diese im Ausländer- und Asylrecht keinen Platz hat.  \n- Es geht nicht darum, mit Artikel 13a Asylsuchende davon abzuhalten, in die Schweiz zu kommen, da dies unrealistisch ist.  \n- Artikel 13a zielt nicht darauf ab, kriminelle Täter wie Räuber oder Mörder zu bestrafen, sondern betrifft Personen ohne Aufenthaltsbewilligung, die nicht ausreisen oder ihre Identität nicht offenlegen.  \n- Es ist nicht Inhalt von Artikel 13a, die Haftdauer von 3 auf",
+    "answer_source_id": [
+      "20050927.gz"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Was sagt Frau Bühlmann in Bezug auf Jugendliche?",
+    "source_id": "20050927.gz",
+    "expected_answer": "Sie bezeichnet die Freiheitsberaubung von Jugendlichen als 'schwarzen Punkt' und 'schwarzen Tatbestand' in den Gesetzen.",
+    "answer": "- Frau Bühlmann bezeichnet das Einschliessen von Minderjährigen als Freiheitsberaubung.  \n- Sie betont, dass Jugendlichen die Freiheit nicht entzogen werden darf, da dies ein schwerwiegender Tatbestand in den Gesetzen sei.  \n- Sie argumentiert, dass Jugendliche stattdessen andere Möglichkeiten nutzen könnten, wie Schule besuchen oder eine Lehre machen, was ihnen mehr nützen würde als die Inhaftierung.  \n- Sie kritisiert die Behauptung von Bundesrat Blocher, dass es sich bei der Haft nicht um ein Gefängnis handle, da die Jugendlichen sich trotz ihres Alters nicht frei bewegen können.  \n- Frau Bühlmann unterstützt die Schaffung einer Differenzierung und die Minderheitsanträge zu den Artikeln 13g und 13h (Ausschaffungshaft und Beugehaft), um die Situation der Minderjährigen zu überdenken und gegebenenfalls EU-kompatible Lösungen zu finden.  \n- Sie lehnt die Einschliessung",
+    "answer_source_id": [
+      "20050927.gz",
+      "20201217.gz"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Mit welchem Argument wird im Text gefordert, die theoretischen Führerprüfungen auf die vier Landessprachen zu beschränken?",
+    "source_id": "20050317.gz",
+    "expected_answer": "Damit Fremdsprachige dazu motiviert werden, die Landessprache zu lernen, was ihre Integration verbessert.",
+    "answer": "- Die Reduktion der theoretischen Führerprüfungen auf die vier Landessprachen soll Fremdsprachige dazu motivieren, die Landessprache zu erlernen.  \n- Dies wird als gute Möglichkeit für junge Ausländerinnen und Ausländer gesehen, sich besser zu integrieren, indem sie die Landessprache verstehen.  \n- Der Bund stellt derzeit Fragen über theoretische Führerprüfungen, die in zahlreiche Sprachen wie Türkisch, Serbokroatisch und Albanisch übersetzt werden.  \n- Die Beschränkung auf die Landessprachen wird als förderlich für die Integration betrachtet.  \n- Der Bundesrat ist bereit, den Vorstoss als Postulat anzunehmen.  \n[ID: 20050927.gz]",
+    "answer_source_id": [
+      "20050317.gz",
+      "20080312.gz",
+      "20020311.gz",
+      "20030925.gz",
+      "20201217.gz"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Welches Limit der budgetierten Einnahmen hält die EVP/EDU-Fraktion im Zusammenhang mit den Kompetenzen der Finanzdelegation für vernünftig?",
+    "source_id": "20050317.gz",
+    "expected_answer": "Ein halbes Prozent (0,5 %).",
+    "answer": "- Die EVP/EDU-Fraktion hält eine Limite von 0,5 Prozent der budgetierten Einnahmen für vernünftig im Zusammenhang mit den Kompetenzen der Finanzdelegation.  \n- Diese Grenze wird als vernünftiger angesehen als ein fixer Betrag, da sie eine Art Indexierung enthält.  \n- Die SPK hatte ursprünglich einen fixen Betrag von 250 Millionen Franken vorgeschlagen, eine Minderheit brachte jedoch die 0,5-Prozent-Limite ein, die dann von der Finanzkommission als Mehrheitsantrag übernommen wurde.  \n- Die EVP/EDU-Fraktion unterstützt diese Mehrheit und sieht darin eine Stärkung der Position und Verantwortung des Parlaments.  \n[ID: 20050927.gz]",
+    "answer_source_id": [
+      "20050317.gz",
+      "20050308.gz",
+      "20050920.gz"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Welche drei Standorte werden im Zusammenhang mit dem Stationierungskonzept der Luftwaffe genannt, deren Betrieb laut dem Sprecher heute nicht mehr gewährleistet ist?",
+    "source_id": "20080918.gz",
+    "expected_answer": "Meiringen, Payerne und Sitten.",
+    "answer": "- Die drei Standorte im Zusammenhang mit dem Stationierungskonzept der Luftwaffe sind:\n  - Meiringen\n  - Payerne\n  - Sitten  \n- Der Sprecher bemängelt, dass der geordnete Betrieb der Luftwaffe an diesen drei Standorten heute nicht mehr gewährleistet sei, da die Luftwaffe zu viele Einschränkungen und Auflagen zu bewältigen habe [ID: nicht explizit angegeben, Kontextabschnitt zur Sicherheitspolitik].",
+    "answer_source_id": [
+      "20080918.gz",
+      "20020311.gz",
+      "20150914.gz",
+      "20030605.gz",
+      "20050920.gz"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Was ist die verfahrensrechtliche Konsequenz, wenn bei der Legislaturplanung ein Ablehnungsantrag zu einer spezifischen Ziffer gutgeheissen wird?",
+    "source_id": "20080918.gz",
+    "expected_answer": "Die entsprechende Ziffer wird aus der Vorlage gestrichen. Die Gesamtvorlage scheitert jedoch nicht.",
+    "answer": "- Wird ein Ablehnungsantrag zu einer Ziffer bei der Legislaturplanung gutgeheissen, wird diese Ziffer aus der Vorlage gestrichen.  \n- Dies bedeutet jedoch nicht, dass die Gesamtvorlage dadurch tangiert wird.  \n- Am Schluss der Beratung gibt es keine Gesamtabstimmung über die Vorlage.  \n- Die Legislaturplanung 2007-2011 wird dem Bundesrat mit den Punkten übergeben, die in den Räten eine Mehrheit gefunden haben.  \n- Dieses Verfahren verhindert, dass die gesamte Vorlage an Extrempositionen scheitert.  \n[ID: 20050927.gz]",
+    "answer_source_id": [
+      "20080918.gz",
+      "20201217.gz",
+      "20020311.gz",
+      "20050927.gz"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Was gehört zu den Mikroverunreinigungen in Gewässern?",
+    "source_id": "20201217.gz",
+    "expected_answer": "Medikamentenrückstände, Hormone, Schwermetalle, Haushalt- und Industriechemikalien.",
+    "answer": "- Zu den Mikroverunreinigungen in Gewässern gehören:  \n  - Medikamentenrückstände  \n  - Hormone  \n  - Schwermetalle  \n  - Haushalt- und Industriechemikalien (möglicherweise auch Pestizide aus Haushalt und Gärten)  \n[ID: 202305xx.gz, Seite 2651]",
+    "answer_source_id": [
+      "20201217.gz"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Wie hoch ist der Stickstoffüberschuss, der aus Abwasserreinigungsanlagen stammt, und wie verhält sich dieser Wert im Vergleich zum Anteil der Landwirtschaft?",
+    "source_id": "20201217.gz",
+    "expected_answer": "Abwasser: gut 20'000 Tonnen. Landwirtschaft: 36'000 Tonnen.",
+    "answer": "- Der Stickstoffüberschuss in der Schweiz beträgt insgesamt 97'000 Tonnen.  \n- Davon stammen 36'000 Tonnen aus der Landwirtschaft.  \n- Gut 20'000 Tonnen Stickstoffüberschuss, die in die Gewässer gelangen, stammen aus Abwasserreinigungsanlagen.  \n- Die Landwirtschaft trägt somit einen höheren Anteil am Stickstoffüberschuss bei als die Abwasserreinigungsanlagen, aber letztere sind mit gut 20'000 Tonnen ebenfalls eine bedeutende Quelle.  \n[ID: 2651]",
+    "answer_source_id": [
+      "20201217.gz",
+      "20080918.gz",
+      "20210923.gz",
+      "20140305.gz"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Mit welchen zwei Argumenten begründete der Bundesrat ursprünglich seinen Antrag auf Ablehnung der Motion Français (19.3750) zur Energieautonomie?",
+    "source_id": "20201217.gz",
+    "expected_answer": "1. Die Bundesverwaltung bezieht bereits 100% erneuerbaren Strom. 2. Vollständige Autonomie ist weder betriebs- noch volkswirtschaftlich sinnvoll.",
+    "answer": "- Die Bundesverwaltung beziehe bereits heute 100 Prozent erneuerbaren Strom, produziere diesen aber nur zu einem kleinen Teil selbst.  \n- Eine vollständige Autonomie der Immobilien des Bundes im Strombereich sei weder aus betriebswirtschaftlicher, volkswirtschaftlicher noch aus energetischer Sicht sinnvoll.  \n[ID: 20.4261, 19.3750]",
+    "answer_source_id": [
+      "20201217.gz",
+      "20180308.gz",
+      "20050317.gz"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Wie viele Fälle pro Jahr betrifft die betreffende Hilfe laut Bundesamt für Sozialversicherung in der Schweiz?",
+    "source_id": "20060918.gz",
+    "expected_answer": "Laut Bundesamt für Sozialversicherung handelt es sich um zwei bis drei Fälle pro Jahr.",
+    "answer": "- Die betreffende Hilfe betrifft in der ganzen Schweiz laut Bundesamt für Sozialversicherung zwei bis drei Fälle pro Jahr [ID: nicht explizit genannt, aber aus dem ersten Textabschnitt].",
+    "answer_source_id": [
+      "20060918.gz",
+      "20030925.gz",
+      "20140305.gz",
+      "20030605.gz"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Wieviel leistet der Bund für die Kulturförderung?",
+    "source_id": "20240101.gz",
+    "expected_answer": "Der Bund ist aus Gründen der Kohäsion der multikulturellen Schweiz mitverantwortlich für die Kulturförderung und leistet rund 13 Prozent der öffentlichen Unterstützung.",
+    "answer": "- Der Bund leistet heute 13 Prozent der öffentlichen Kulturförderung, die Kantone und Gemeinden leisten den Rest.  \n- Für die Stiftung Pro Helvetia, einen der Hauptträger der Kulturförderung, betrug der jährliche Bundesbeitrag in den Jahren 1998 bis 2001 rund 30 Millionen Franken.  \n- Der Bundesrat schlägt eine Erhöhung des Rahmenkredites für Pro Helvetia von 120 auf 121 Millionen Franken vor, zuzüglich 16 Millionen Franken für drei Schwerpunktprogramme.  \n- Die CVP-Fraktion unterstützt einen Vierjahresbeitrag von 137 Millionen Franken für die Kulturförderung insgesamt.  \n- Die SVP-Fraktion beantragt einen Rahmenkredit von 121 Millionen Franken für Pro Helvetia ohne die zusätzlichen 16 Millionen für Schwerpunktprogramme.  \n\nZusammenfassend:  \n- Bund leistet 13 % der öffentlichen Kulturförderung insgesamt.  \n- Für Pro Helvetia sind aktuell rund",
+    "answer_source_id": [
+      "20030925.gz"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Was ist das Ziel der vorgeschlagenen Änderung des KVG in Artikel 25 Absatz 5?",
+    "source_id": "20161208.gz",
+    "expected_answer": "Die Änderung soll bestehende Lücken bei der Restfinanzierung von ausserkantonalen Pflegeheimaufenthalten schliessen und eine einheitliche nationale Regelung sicherstellen.",
+    "answer": "- Ziel der vorgeschlagenen Änderung des KVG in Artikel 25 Absatz 5 ist es, bestehende Lücken bei der Restfinanzierung von ausserkantonalen Pflegeheimaufenthalten zu schliessen.  \n- Die Gesetzesanpassung soll sicherstellen, dass die Restfinanzierung von Pflegeleistungen für ausserkantonale Patientinnen und Patienten auf nationaler Ebene einheitlich und klar geregelt wird.  \n- Konkret wird vorgeschlagen, dass der Wohnsitzkanton der Patientin oder des Patienten die Restkosten nach den Regeln des Standortkantons des Pflegeheims und nicht nach den Regeln des Wohnsitzkantons übernehmen muss.  \n- Dadurch soll vermieden werden, dass ungedeckte Kosten verbleiben, die den Patientinnen und Patienten zumindest teilweise aufgebürdet werden.  \n- Die Änderung zielt darauf ab, Finanzierungslücken in der Pflegeversicherung zu verhindern, die entstehen könnten, wenn der Herkunftskanton die Restfinanzierung fest",
+    "answer_source_id": [
+      "20161208.gz",
+      "20111220.gz",
+      "20200302.gz",
+      "20201217.gz"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Warum reicht das Produktesicherheitsrecht nicht aus, um die Risiken von Laserbehandlungen oder Ultraschall abzudecken?",
+    "source_id": "20161208.gz",
+    "expected_answer": "So geht es beim Produktesicherheitsrecht um die Sicherheit des Produktes an sich, es gibt aber keine Regelung betreffend Handhabung oder den unsachgemässen Einsatz des Produktes.",
+    "answer": "- Das Produktesicherheitsrecht bezieht sich nur auf die Sicherheit des Produktes an sich.  \n- Es enthält keine Regelungen zur Handhabung oder zum unsachgemässen Einsatz der Produkte.  \n- Daher deckt es die problematischen Bereiche bei Laserbehandlungen oder Ultraschall nicht ab, da hier die Gefährdung durch unsachgemässen Gebrauch entsteht.  \n- Weitere Gesetze wie das Umweltschutzgesetz, Arbeitssicherheitsrecht oder Waffengesetz greifen ebenfalls nicht, da sie entweder zu kurz greifen oder keine Regelungen für die Verwendung dieser gefährlichen Güter enthalten.  \n- Deshalb besteht ein Bedarf an einem eigenen Gesetz zum Schutz vor nichtionisierenden Strahlen und übermässiger Schallbelastung, das auch die Handhabung und den Einsatz regelt.  \n[ID: 20050927.gz]",
+    "answer_source_id": [
+      "20161208.gz",
+      "20080312.gz",
+      "20200302.gz"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Welches Ergebnis lieferte die Spliss-Studie bezüglich der Laufbahn von Schweizer Spitzenathleten?",
+    "source_id": "20140926.gz",
+    "expected_answer": "Die Spliss-Studie, bei welcher Spitzensportler befragt wurden, zeigt ein klares Bild auf: Die finanzielle Situation ist ein grosses Problem für eine Karriere von Schweizer Spitzenathletinnen und Spitzenathleten.",
+    "answer": "- Die Spliss-Studie zeigt klar, dass die finanzielle Situation ein grosses Problem für die Karriere von Schweizer Spitzenathletinnen und Spitzenathleten darstellt.  \n- Die finanzielle Unsicherheit erschwert es den Athletinnen und Athleten, ihre berufliche und sportliche Karriere zu vereinbaren und eine befriedigende Vorsorgelösung bzw. finanzielle Absicherung nach der Sportkarriere zu erreichen.  \n- Aufgrund dieser unsicheren finanziellen Lage entscheiden sich viele hochbegabte Sportlerinnen und Sportler gegen eine Karriere im Spitzensport.  \n- Die Studie unterstreicht die Notwendigkeit, die finanzielle Situation von Topathleten nachhaltig zu verbessern, um die hochgesteckten Ziele der Schweiz im internationalen Wettbewerb zu erreichen.  \n[ID: PAGE 1830]",
+    "answer_source_id": [
+      "20140926.gz",
+      "20170502.gz",
+      "20180308.gz",
+      "20190320.gz"
+    ]
+  },
+  {
+    "id": 18,
+    "question": " Welches Problem wird bei der Erfassung von Raufutterimporten im Zusammenhang mit der Tierhaltung genannt?",
+    "source_id": "20210316.gz",
+    "expected_answer": "Sehr viele, die solche Equiden halten, haben wenig oder kein Land, und ein grosser Teil des importierten Heus geht tatsächlich, das hat Kollege Haab richtig festgestellt, an die Equidenfütterung.",
+    "answer": "- Information nicht im Dokument enthalten. [ID: 20050927.gz]",
+    "answer_source_id": [
+      "20150914.gz",
+      "20170502.gz",
+      "20200302.gz",
+      "20201217.gz"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Was verlangt die Motion Paupe?",
+    "source_id": "20010614.gz",
+    "expected_answer": "Die Motion Paupe verlangt - es wurde schon gesagt -, dass sich die Schweiz mit 2 Prozent an den Kosten zur Förderung der weltweiten Vernichtung der Chemiewaffen beteiligt und ihre Politik darauf ausrichtet.",
+    "answer": "- Information nicht im Dokument enthalten. [ID: nicht angegeben]",
+    "answer_source_id": [
+      "20201217.gz",
+      "20020311.gz",
+      "20200302.gz"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "In welchen spezifischen Ländern leisten die rund siebzig Zivildienstleistenden pro Jahr derzeit ihre Auslandseinsätze zur Katastrophenbewältigung?",
+    "source_id": "20191218.gz",
+    "expected_answer": "(Test) Es wurden keine spezifischen Länder erwähnt.",
+    "answer": "Information nicht im Dokument enthalten.",
+    "answer_source_id": [
+      "20170502.gz",
+      "20200302.gz",
+      "20180308.gz",
+      "20101208.gz",
+      "20190320.gz"
+    ]
+  }
+]
