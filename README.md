@@ -55,10 +55,10 @@
 ```
 ## Implemented approaches
 
-1. Rule-based (Vectoring: BM-25, Answering: ChatGPT 4.1-mini): [NLP_RAG_TFDF.ipynb](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/NLP_RAG_TFDF.ipynb)
-2. ML-based (Vectoring: E5 Text Embeddings, Answering: ChatGPT 4.1-mini): [NLP_RAG_LLMRetriev.ipynb](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/NLP_RAG_LLMRetriev.ipynb)
-3. Local SLM (Vectoring: Nomic-embed text, Answering: LLama 3.2): [NLP_RAG_LLMLocal.ipynb](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/NLP_RAG_LLMLocal.ipynb)
-4. Verbatim (Vectoring: E5 Text Embeddings, Answering: Verbatim): [NLP_VerbatimRAG_LLMRetriev.ipynb](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/NLP_VerbatimRAG_LLMRetriev.ipynb)
+1. Rule-based (Vectoring: BM-25, Answering: ChatGPT 4.1-mini). Source: [NLP_RAG_TFDF.ipynb](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/NLP_RAG_TFDF.ipynb), output: [Rule-based answers](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/output/100_docs/tfdf_20q_100d.json)
+2. ML-based (Vectoring: E5 Text Embeddings, Answering: ChatGPT 4.1-mini). Source: [NLP_RAG_LLMRetriev.ipynb](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/NLP_RAG_LLMRetriev.ipynb), output: [ML-based answers](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/output/100_docs/llm_20q_100d.json)
+3. Local SLM (Vectoring: Nomic-embed text, Answering: LLama 3.2). Source: [NLP_RAG_LLMLocal.ipynb](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/NLP_RAG_LLMLocal.ipynb), output: [Local SLM answers](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/output/100_docs/output_llama_20q_100d.json)
+4. Verbatim (Vectoring: E5 Text Embeddings, Answering: Verbatim). Source: [NLP_VerbatimRAG_LLMRetriev.ipynb](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/NLP_VerbatimRAG_LLMRetriev.ipynb), output: [Verbatim answers](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/output/100_docs/verbatim_20q_100d.json)
 
 ## Interim results
 ### Milestone 1
