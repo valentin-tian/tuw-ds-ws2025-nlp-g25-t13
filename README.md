@@ -37,7 +37,10 @@
 ├── NLP_IE_2025WS_Exercise.pdf
 │   Official exercise description and task specification.
 │
-├── WS2025_NLP_G25_T13_Slides.pdf
+├── NLP_IE_2025WS_G25_T13_Report.pdf
+│   Management summary report suitable for non-technical stakeholders.
+│
+├── NLP_IE_2025WS_G25_T13_Slides.pdf
 │   Slides used for the final project presentation.
 │
 ├── README.md
