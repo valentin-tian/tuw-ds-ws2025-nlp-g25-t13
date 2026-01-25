@@ -19,6 +19,37 @@
 | 16/01/2026 | Final Presentation | Presentation and Feedback |
 | 25/01/2026 | Final Submission | Final Solution |
 
+## Repository Structure
+
+├── data/
+│   Contains all datasets used in the project including raw input data and any
+│   intermediate or preprocessed files required for the Milestone 1 and further experiments.
+│
+├── src/
+│   Core source code of the project. This folder includes the implementation of
+│   data processing, model logic and evaluation components.
+│
+├── output/
+│   Stores all generated outputs such as RAG outputs.
+│
+├── NLP_IE_2025WS_Exercise.pdf
+│   Official exercise description and task specification.
+│
+├── WS2025_NLP_G25_T13_Slides.pdf
+│   Slides used for the final project presentation.
+│
+├── README.md
+│   High-level project description and instructions on how to reproduce the key results and details of the Milestone 1 and Milestone 2 results.
+│
+├── requirements.txt
+│   List of Python dependencies required to run the project.
+│
+├── environment_ollama.yml
+│   Conda environment specification for running experiments with Ollama-based models.
+│
+├── LICENSE
+│   License information for this repository.
+
 ## Project Structure
 ### Milestone 1
 #### Deliverables
