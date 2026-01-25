@@ -53,6 +53,12 @@
 ├── LICENSE
 │   License information for this repository.
 ```
+## Implemented approaches
+
+1. Rule-based (Vectoring: BM-25, Answering: ChatGPT 4.1-mini): [NLP_RAG_TFDF.ipynb](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/NLP_RAG_TFDF.ipynb)
+2. ML-based (Vectoring: E5 Text Embeddings, Answering: ChatGPT 4.1-mini): [NLP_RAG_LLMRetriev.ipynb](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/NLP_RAG_LLMRetriev.ipynb)
+3. Local SLM (Vectoring: Nomic-embed text, Answering: LLama 3.2): [NLP_RAG_LLMLocal.ipynb](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/NLP_RAG_LLMLocal.ipynb)
+4. Verbatim (Vectoring: E5 Text Embeddings, Answering: Verbatim): [NLP_VerbatimRAG_LLMRetriev.ipynb](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/NLP_VerbatimRAG_LLMRetriev.ipynb)
 
 ## Interim results
 ### Milestone 1
