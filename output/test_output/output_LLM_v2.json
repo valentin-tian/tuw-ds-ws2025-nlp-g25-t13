@@ -1,0 +1,400 @@
+[
+  {
+    "id": 1,
+    "question": "Was war der Ausgang der Abstimmung der Staatspolitischen Kommision über die Handhabung von Volksinitiativen die Grundrechte verletzen?",
+    "source_id": "20111220.gz",
+    "expected_answer": "13 Stimmen Annahme, 8 Stimmen dagegen, 2 Enthaltungen.",
+    "answer": "Die Staatspolitische Kommission stimmte mit 13 zu 8 Stimmen bei 2 Enthaltungen für eine wichtige Etappe im Umgang mit Volksinitiativen, die Grundrechte verletzen.",
+    "answer_source_id": [
+      "20111220.gz",
+      "20050927.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20111220.gz",
+        "snippet": "Die Staatspolitische Kommission schlägt Ihnen mit 13 zu 8 Stimmen bei 2 Enthaltungen eine wichtige Etappe in einem langen Prozess vor, der uns in der neuen Legislatur noch viele Male beschäftigen wird. Es geht um die Handhabung der Volksinitiativen im Zusammenhang mit dem Völkerrecht bzw. darum, wie"
+      },
+      {
+        "source_id": "20111220.gz",
+        "snippet": "Als Begründung wird darauf hingewiesen, dass mit dieser Motion die Wahrscheinlichkeit der Einreichung, des Zustandekommens und der Annahme völkerrechtswidriger Volksinitiativen verhindert werden soll. Im Namen der Kommissionsminderheit bitte ich Sie, diese Motion abzulehnen, und zwar aus folgenden G"
+      },
+      {
+        "source_id": "20111220.gz",
+        "snippet": "Der Ständerat schlägt vor, analog zum Postulat Heim 09.3118, den Bundesrat eine Vorlage ausarbeiten zu lassen, welche dafür sorgt, dass man diejenigen Volksbegehren, die mit Grundrechten und internationalen Normen in Konflikt kommen könnten, mit einem entsprechenden Warnhinweis versieht, und zwar in"
+      },
+      {
+        "source_id": "20111220.gz",
+        "snippet": "Beim Kerngehalt der Volksrechte wird es auch sehr, sehr gefährlich. Wenn ich von Amputation und vom Angriff auf die Volksrechte und die direkte Demokratie spreche, dann tue ich das, weil es eine ganze Reihe von Angriffen gibt - Verfassungsgerichtsbarkeit, Ungültigkeitskriterien usw., alles geht in d"
+      },
+      {
+        "source_id": "20050927.gz",
+        "snippet": "Ich habe Ihnen gesagt, dass ich als Kommissionssprecher etwas über den Evaluationsbericht erzählen würde, weil ich auch in der Kommission genau das Gleiche gesagt hätte. Ich bitte Sie, die entsprechenden Protokolle nochmals einzusehen. Wir bitten Sie, den Antrag der Minderheit Levrat abzulehnen. Es"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Was war die Antwort von Andreas Babler auf die Frage, ob der Mars bald besiedelt wird?",
+    "source_id": null,
+    "expected_answer": "Information nicht enthalten. (Halluzinationstest)",
+    "answer": "Die Information ist im Kontext nicht enthalten.",
+    "answer_source_id": [
+      "20050317.gz",
+      "20200302.gz",
+      "20201217.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Ich habe nichts dagegen, wenn solche Fahrzeuge den Leuten, die wirklich \"off road\" Arbeiten verrichten müssen, dienlich sind und zur Verfügung stehen. Sie sollten aber nicht dort eingesetzt werden, wo es wenig Sinn macht; denn diese Fahrzeuge belasten die Umwelt, sie sind ein Sicherheitsproblem wege"
+      },
+      {
+        "source_id": "20200302.gz",
+        "snippet": "Eigentlich sollten die Mängel innerhalb von drei Jahren behoben werden. Wir haben jetzt schon einen Rückstand, und die nächste Prüfung steht vor der Tür. Ich bitte Sie deshalb, die Minderheit zu unterstützen und auf diese Revision einzutreten. Sehr geehrter Herr Kollege Matter, wenn Sie mir zugehört"
+      },
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Was wir jetzt tun, ist eine Überreaktion aufgrund eines Einzelfalles. Es wäre reizvoll, gerade jetzt, da die Diskussionen um die Swiss wieder angelaufen sind, auch über den materiellen Entscheid von damals zu sprechen. Die Widersprüchlichkeiten, die sich jetzt ergeben, widerspiegeln, was damals zur"
+      },
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Deshalb: Unterstützen Sie bitte die Mehrheit. Unsere Interpellation datiert vom Oktober 2003 und befasst sich mit den Problemen der Neat. Wir setzten damals hinter den Titel \"Schiffbruch des Jahrhundertprojektes\" ein Fragezeichen. Ich bin fast versucht, heute ein Ausrufezeichen dahinter zu setzen! D"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Mein Gott, es ist ein riesiger Immobilienbestand von einer Viertelmilliarde Franken. Wenn das Bundesamt für Bauten und Logistik überfordert ist, übergeben Sie die Immobilien einer anständigen Baufirma, die sie für Sie renoviert und betreibt. Das ist also kein Argument. Dann kommt noch dazu: Schon ge"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Wie viele Anzeigen gaben es in den Jahren 2000 und 2015 in der Schweiz im Bezug auf Gewalt gegen Behörden und Beamte und in welchem Artikel werden diese festgehalten?",
+    "source_id": "20200302.gz",
+    "expected_answer": "2000: 744, 2015: 2808. Artikel 85 StGB.",
+    "answer": "- Im Jahr 2000 gab es 774 Anzeigen.  \n- Im Jahr 2015 stieg die Zahl auf 2808 Anzeigen.  \n- Festgehalten werden diese im Artikel 285 StGB.",
+    "answer_source_id": [
+      "20200302.gz",
+      "20050927.gz",
+      "20111220.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20200302.gz",
+        "snippet": "Die Kommission für Rechtsfragen des Nationalrates hat am 14. und 15. November 2019 die gleichlautenden parlamentarischen Initiativen Guhl und Romano behandelt und diesen mit 16 zu 8 Stimmen Folge gegeben. Unsere Kommission für Rechtsfragen hat diese parlamentarischen Initiativen zum zweiten Mal beha"
+      },
+      {
+        "source_id": "20200302.gz",
+        "snippet": "Sie ist nicht einfach hinzunehmen, und es ist dagegen vorzugehen. Es fragt sich nur, ob eine Änderung des Straftatbestands und eine Erhöhung des Strafmasses die geeigneten Mittel sind. Und es fragt sich, ob eine Änderung von Artikel 285 StGB überhaupt der richtige Ansatz ist. In diesem Artikel geht"
+      },
+      {
+        "source_id": "20050927.gz",
+        "snippet": "Eine Behörde beschliesst, dass auf ein Gesuch nicht eingetreten werden soll. Das ist nicht ein Verbrechen des Asylsuchenden, sondern ein Entscheid der Behörde aufgrund von Untersuchungen, die gemacht worden sind. Muss man dafür wirklich zwei Jahre Haft aussprechen? Und dann ist da die Haft für die M"
+      },
+      {
+        "source_id": "20050927.gz",
+        "snippet": "[PAGE 1201] Für die Beurteilung der Vollzugspraxis eines Kantons ist nicht entscheidend, in wie vielen Fällen die Ausreise ohne vorherige Ausschaffungshaft erfolgt. Bessere Aussagen erhielte man, wenn man die Vollzugspendenzen in Relation zu den ausländerrechtlichen Haftanordnungen setzen würde. Das"
+      },
+      {
+        "source_id": "20111220.gz",
+        "snippet": "Die Behörden selbst nutzen diesen präventiven Effekt oft, indem sie mit dem Hinweis \"Achtung Radarkontrolle\" die Fahrzeugführerinnen und Fahrzeugführer auf eine kommende Kontrolle hinweisen. Wo liegt denn letztlich der Unterschied? Entscheidend für uns ist, dass beide Informationen der Sicherheit au"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Was ist nicht Inhalt von Artikel 13a?",
+    "source_id": "20050927.gz",
+    "expected_answer": "Es geht nicht darum, die Allgemeinheit vor einem ganz gefährlichen Menschen zu schützen, sondern um eine sogenannte Vorbereitungshaft und die Ausweitung der Dauer auf 6 Monate.",
+    "answer": "Die Allgemeinheit vor einem ganz gefährlichen Menschen zu schützen.",
+    "answer_source_id": [
+      "20050927.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20050927.gz",
+        "snippet": "Bei Artikel 13a geht es aber nicht darum, die Allgemeinheit vor einem ganz gefährlichen Menschen zu schützen - denn ich gehe davon aus, dass die Justizbehörden dies tun, wenn jemand wirklich gefährlich ist -, sondern es geht um eine sogenannte Vorbereitungshaft, also darum, während einer Haft einen"
+      },
+      {
+        "source_id": "20050927.gz",
+        "snippet": "Abschliessend noch einmal: Es geht darum, den Rechtsstaat umzusetzen. Es geht nicht um die Schikaniererei von Ausländerinnen und Ausländern, sondern es geht darum, den Rechtsstaat umzusetzen. Der Rechtsstaat leidet, wenn er nicht umgesetzt wird; er wird unglaubwürdig. Im Interesse des Rechtsstaates"
+      },
+      {
+        "source_id": "20050927.gz",
+        "snippet": "Der Begriff \"Beugehaft\" ist definitiv falsch und entspricht auch nicht der Absicht des Gesetzgebers. Der Begriff [PAGE 1208] \"Durchsetzungshaft\" tut dies sehr wohl, weil wir hier dem Recht zum Durchbruch verhelfen. \"Durchsetzungshaft\" ist richtig und entspricht auch dem Sinne des Gesetzes. Ich möcht"
+      },
+      {
+        "source_id": "20050927.gz",
+        "snippet": "Die Massnahmen, die zu einer Haft gemäss Artikel 13g, der Durchsetzungshaft, führen, sind darin abgedeckt. Noch etwas zu den Begriffen, die ich hier gehört habe: Freiheitsberaubung usw. Wir können diese Diskussion abkürzen. Die EMRK, die Europäische Menschenrechtskonvention, sagt ganz einfach \"Freih"
+      },
+      {
+        "source_id": "20050927.gz",
+        "snippet": "Eine Behörde beschliesst, dass auf ein Gesuch nicht eingetreten werden soll. Das ist nicht ein Verbrechen des Asylsuchenden, sondern ein Entscheid der Behörde aufgrund von Untersuchungen, die gemacht worden sind. Muss man dafür wirklich zwei Jahre Haft aussprechen? Und dann ist da die Haft für die M"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Was sagt Frau Bühlmann in Bezug auf Jugendliche?",
+    "source_id": "20050927.gz",
+    "expected_answer": "Sie bezeichnet die Freiheitsberaubung von Jugendlichen als 'schwarzen Punkt' und 'schwarzen Tatbestand' in den Gesetzen.",
+    "answer": "Frau Bühlmann sagt, dass das Einschliessen von Jugendlichen Freiheitsberaubung ist und ein schwarzer Tatbestand in den Gesetzen. Jugendliche sollten nicht eingeschlossen werden, da sie stattdessen zur Schule gehen oder eine Lehre machen könnten.",
+    "answer_source_id": [
+      "20050927.gz",
+      "20111220.gz",
+      "20211202.gz",
+      "20201217.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20050927.gz",
+        "snippet": "Eine Behörde beschliesst, dass auf ein Gesuch nicht eingetreten werden soll. Das ist nicht ein Verbrechen des Asylsuchenden, sondern ein Entscheid der Behörde aufgrund von Untersuchungen, die gemacht worden sind. Muss man dafür wirklich zwei Jahre Haft aussprechen? Und dann ist da die Haft für die M"
+      },
+      {
+        "source_id": "20050927.gz",
+        "snippet": "Ich will damit einfach nur sagen, dass wir hier nicht über die bösen Räuber sprechen; sie sind nicht der Gegenstand dieses Artikels. Wir sprechen über Leute, die hier im Verfahren drinstecken und die ihr Recht nicht wahrnehmen können. Deshalb macht diese Verdoppelung der Haftdauer keinen Sinn; sie i"
+      },
+      {
+        "source_id": "20111220.gz",
+        "snippet": "Lebensjahr. Die Alterslimite von 14 Jahren scheint uns denkbar ungünstig zu sein. 14-Jährige wollen nicht mehr Kinder sein. Sie fühlen sich bestraft, wenn sie, in ihren Augen, wie ein kleines Kind behandelt werden und einen Helm tragen müssen. Erwachsensein heisst eben, dass es erlaubt ist, ohne Hel"
+      },
+      {
+        "source_id": "20211202.gz",
+        "snippet": "Diese Verantwortung soll in der Pflicht der Eltern bleiben, genau so, wie es bei rechtlichen Angelegenheiten sonst auch ist. Die Mündigkeit tritt mit 18 Jahren ein, erst ab diesen Zeitpunkt sind Jugendliche für sich selbst verantwortlich. Eine Zertifikatspflicht führt unweigerlich zu einem Impfzwang"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Zudem sieht sie eine Verschuldung des Netzzuschlagsfonds als nicht erforderlich und erachtet eine solche als zu riskant. Der Bundesrat beantragte damals die Annahme der Motion. Ich weiss nicht, ob er immer noch der gleichen Meinung ist; wir werden sehen, was die Frau Bundespräsidentin dazu zu sagen"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Mit welchem Argument wird im Text gefordert, die theoretischen Führerprüfungen auf die vier Landessprachen zu beschränken?",
+    "source_id": "20050317.gz",
+    "expected_answer": "Damit Fremdsprachige dazu motiviert werden, die Landessprache zu lernen, was ihre Integration verbessert.",
+    "answer": "Fremdsprachige können dadurch motiviert werden, der Landessprache mächtig zu werden und sich besser zu integrieren.",
+    "answer_source_id": [
+      "20050317.gz",
+      "20111220.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Wir bitten Sie, ebenfalls die Mehrheit zu unterstützen. Die Eingabe des Vorstosses, den ich von Kollege Heim übernommen habe, liegt schon fast zwei Jahre zurück, und das ist ja kein Einzelfall. Ich habe ihn deswegen übernommen, weil er in unserem St. Galler Kantonsparlament auch schon ein wichtiges"
+      },
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Dies zu ihrer eigenen Sicherheit, vor allem aber auch für die Sicherheit der anderen Verkehrsteilnehmenden. Ein erster Schritt zur Verbesserung der Sicherheit im Verkehr ist die obligatorische Wiederholung der Fahrprüfung nach einem längeren Entzug. Ich bitte Sie deshalb, meinen Vorstoss zu überweis"
+      },
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Aber die Begründung hat mich erstaunt, dass im Tempo-60-Bereich neu verminderte Toleranzwerte gelten; bei Tempoüberschreitungen werde statt den bisherigen 5 Stundenkilometern nur noch ein Toleranzwert von 3 Stundenkilometern abgezogen. Dies also im Tempo-60-Bereich. Man stützt sich hier auf eine Wei"
+      },
+      {
+        "source_id": "20111220.gz",
+        "snippet": "Es geht darum, dass Warnungen vor Radarkontrollen sehr wohl auch von Vorteil sein können. Nicht zuletzt der seinerzeitige Verkehrsminister Moritz Leuenberger hat das einmal in einem Fernsehinterview genüsslich dargelegt: Korrektes Fahren sei gerade dann, wenn eine solche Warnung vor einer Kontrolle"
+      },
+      {
+        "source_id": "20111220.gz",
+        "snippet": "Wir haben momentan einen Antrag des Bundesverwaltungsgerichtes auf dem Tisch, die Anzahl der Richterstellen zu erhöhen. Es ist immer wieder gesagt worden, wir hätten genügend Richter. Wenn die Richter jetzt noch Mehrarbeit, Überzeit und Gleitzeit kompensieren können, dann brauchen wir noch mehr Rich"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Welches Limit der budgetierten Einnahmen hält die EVP/EDU-Fraktion im Zusammenhang mit den Kompetenzen der Finanzdelegation für vernünftig?",
+    "source_id": "20050317.gz",
+    "expected_answer": "Ein halbes Prozent (0,5 %).",
+    "answer": "Die Information ist im Kontext nicht enthalten.",
+    "answer_source_id": [
+      "20050317.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Ich bitte Sie, die Motion zu unterstützen. Die Frage der Dringlichkeit eines Vorhabens und die Kompetenzdelegation der Kontrolle sind nicht neu. Der Bund braucht Krisenregelungen, das ist unbestritten. Die Frage ist: Will der Bundesrat diese Kompetenz? Will die Finanzdelegation diese Kompetenz? Oder"
+      },
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Die SPK hat sich dieses Problems dann auch angenommen und hat einstimmig den jetzt in Artikel 28 vorliegenden Vorschlag genehmigt, mit einer kleinen Änderung: Die SPK wollte einen fixen Betrag in der Höhe von 250 Millionen Franken als Grenze drinhaben. Eine Minderheit hat dieses halbe Prozent eingef"
+      },
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Ich möchte, dass Sie das präzisieren. Im Namen der Minderheit beantrage ich Ihnen, Artikel 54 integral zu streichen. Mit dieser Streichung soll verhindert werden, dass bei der Abrechnung von Drittmitteln oder Sponsoring \"Seitenwagen\" eingeführt werden, die mit den Prinzipien des neuen Finanzhaushalt"
+      },
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Stellen Sie sich vor, wir hätten bereits vor der Einigungskonferenz diesen Höchstbetrag überschritten. Die Konsequenz wäre: Es gibt keine Einigungskonferenz mehr! Das heisst, dass das Zweikammersystem durch eine Bestimmung des FHG beeinträchtigt bzw. beschnitten würde. Das sind grundsätzliche staats"
+      },
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Der Bundesrat weiss, dass er in einer solchen Situation früh genug handeln und eine Sondersession einberufen müsste. Darum ist eine andere gesetzliche Regelung als die vom Bundesrat vorgeschlagene nicht nötig. Es ist absolut möglich, eine Sondersession auch freiwillig einzuberufen. Ich bin überzeugt"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Welche drei Standorte werden im Zusammenhang mit dem Stationierungskonzept der Luftwaffe genannt, deren Betrieb laut dem Sprecher heute nicht mehr gewährleistet ist?",
+    "source_id": "20080918.gz",
+    "expected_answer": "Meiringen, Payerne und Sitten.",
+    "answer": "Die Information ist im Kontext nicht enthalten.",
+    "answer_source_id": [
+      "20050317.gz",
+      "20201217.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Da stellt sich dann heraus, dass da offensichtlich teilweise ungenaue Angaben, Unklarheiten bestehen, in welcher Form die betreffenden Fahrer überhaupt Fahrprüfungen absolviert haben. Das hängt mit den Unruhen und mit den ungeklärten Verhältnissen in den Herkunftsländern dieser Leute zusammen. Desha"
+      },
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Die Post hat aufgrund ihrer zahlreichen Wettbewerbsvorteile, die sie nach wie vor hat, auch keinen Grund, hier differenzierte Tarife einzuführen. Deshalb sind diesbezüglich auch keine vorsorglichen Massnahmen ins Auge zu fassen. Ich bitte Sie doch, die Glaubwürdigkeit solcher Entlastungsprogramme ge"
+      },
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Was wir jetzt tun, ist eine Überreaktion aufgrund eines Einzelfalles. Es wäre reizvoll, gerade jetzt, da die Diskussionen um die Swiss wieder angelaufen sind, auch über den materiellen Entscheid von damals zu sprechen. Die Widersprüchlichkeiten, die sich jetzt ergeben, widerspiegeln, was damals zur"
+      },
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Aber dem Grundsatz nach bitte ich Sie, dieser Ergänzung zuzustimmen und es dann dem Ständerat zu überlassen, die Idee noch am richtigen Ort zu platzieren und den Text eventuell präziser zu formulieren. Die Richtung der Motion stimmt zwar, aber das Timing stimmt nicht: Der vorgegebene Zeitraum ist ei"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Die Kommission sieht daher auch anlässlich des konkreten Falls keinen zusätzlichen Handlungsbedarf. Eine Änderung dieser Regelung könnte schliesslich den Kompromiss gefährden, der als Gegenvorschlag zur Volksinitiative \"Lebendiges Wasser\" ausgearbeitet worden ist. Zudem haben wir auch im Rahmen der"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Was ist die verfahrensrechtliche Konsequenz, wenn bei der Legislaturplanung ein Ablehnungsantrag zu einer spezifischen Ziffer gutgeheissen wird?",
+    "source_id": "20080918.gz",
+    "expected_answer": "Die entsprechende Ziffer wird aus der Vorlage gestrichen. Die Gesamtvorlage scheitert jedoch nicht.",
+    "answer": "Die Information ist im Kontext nicht enthalten.",
+    "answer_source_id": [
+      "20050927.gz",
+      "20080918.gz",
+      "20050317.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20050927.gz",
+        "snippet": "Das ist nichts anderes als recht. Ich bitte Sie, der Mehrheit zu folgen. Im Namen der FDP-Fraktion bitte ich Sie, auch hier den Antrag der Minderheit abzulehnen. Unsere Kommission hat sich mit 15 zu 8 Stimmen ebenfalls für diesen Weg entschieden. Vorweg weisen wir einmal mehr die suggestiven Unterst"
+      },
+      {
+        "source_id": "20080918.gz",
+        "snippet": "Was den politischen Gehalt dieser Vorlage betrifft, wissen wir, dass die Legislaturplanung 2007-2011 kein Gesetz ist, sondern Ziele vorgibt - insbesondere natürlich für die Regierung -, die in den vier Jahren dieser Legislatur verfolgt werden sollen bzw. verfolgt werden sollten. Diese Zielsetzungen"
+      },
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Stellen Sie sich vor, wir hätten bereits vor der Einigungskonferenz diesen Höchstbetrag überschritten. Die Konsequenz wäre: Es gibt keine Einigungskonferenz mehr! Das heisst, dass das Zweikammersystem durch eine Bestimmung des FHG beeinträchtigt bzw. beschnitten würde. Das sind grundsätzliche staats"
+      },
+      {
+        "source_id": "20050927.gz",
+        "snippet": "Es kann auch zu einer sehr grossen Belastung für einen Einzelrichter führen, wenn er solche Entscheide allein zu verantworten, allein zu tragen hat. Bei Artikel 111 Absatz 2 Buchstabe e, den der Ständerat eingeführt hat, handelt es sich um ein Unikum. Das ist neu. Ich habe noch nie gesehen, dass ein"
+      },
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Sie haben sämtliche unsere Anträge abgelehnt. Jetzt kommt eine echte Verschärfung, und ich würde mich sehr wundern, wenn man angesichts des Argumentes, das man gegen unsere Anliegen angewendet hat, man habe ja noch keine Erfahrung, hier jetzt plötzlich Erfahrung hätte und mit diesem Argument sagen w"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Was gehört zu den Mikroverunreinigungen in Gewässern?",
+    "source_id": "20201217.gz",
+    "expected_answer": "Medikamentenrückstände, Hormone, Schwermetalle, Haushalt- und Industriechemikalien.",
+    "answer": "- Medikamentenrückstände  \n- Hormone  \n- Schwermetalle  \n- Haushalt- und Industriechemikalien  \n- möglicherweise auch Pestizide aus dem Haushalt und aus den Gärten",
+    "answer_source_id": [
+      "20201217.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Nachdem vergangene Woche mit der parlamentarischen Initiative 19.475 der WAK-S, \"Das Risiko beim Einsatz von Pestiziden reduzieren\", ein Absenkpfad für Risiken von Pestiziden vom Nationalrat verabschiedet worden ist, will die WAK-N mit den zwei Kommissionsmotionen im Bereich Abwasserreinigungsanlage"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Die Mehrheit der Finanzkommission kam nach den Ausführungen des Bundesrates und der Verwaltung zum Schluss, dass ein System der Solidarbürgschaften bei Transportunternehmen des regionalen Personenverkehrs das einfachere und bessere System ist - schliesslich wird ja derregionalePersonenverkehrnicht m"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Auch an dieser Stelle: Für Unternehmungen ist es auch im eigenen Interesse, dass sie keine sexuelle Belästigung zulassen und dagegen vorgehen. Zudem ist es für einen Arbeitgeber nie möglich, zu beweisen, dass keine sexuelle Belästigung stattgefunden hat. Eine Schlussfolgerung könnte deshalb sein, da"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Sie haben heute keinen Anspruch auf Kurzarbeitsentschädigung und erhalten im Falle von Arbeitslosigkeit nur dann Leistungen, wenn sie die Bindung zum Unternehmen auflösen. Wir hatten bereits vor einigen Jahren eine entsprechende Revision des Arbeitslosenversicherungsgesetzes - die vierte Revision -,"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Die Kommission für Umwelt, Raumplanung und Energie des Nationalrates hat an ihrer Sitzung vom 18. und 19. Mai die Standesinitiative geprüft, welche der Grosse Rat des Kantons Wallis am 29.Mai 2018 eingereicht hat. Mit der Standesinitiative wird gefordert, die Bestimmungen zum Gewässerschutz bei der"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Wie hoch ist der Stickstoffüberschuss, der aus Abwasserreinigungsanlagen stammt, und wie verhält sich dieser Wert im Vergleich zum Anteil der Landwirtschaft?",
+    "source_id": "20201217.gz",
+    "expected_answer": "Abwasser: gut 20'000 Tonnen. Landwirtschaft: 36'000 Tonnen.",
+    "answer": "Gut 20000 Tonnen Stickstoffüberschuss stammen aus Abwasserreinigungsanlagen. 36000 Tonnen kommen von der Landwirtschaft.",
+    "answer_source_id": [
+      "20201217.gz",
+      "20050317.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Nachdem vergangene Woche mit der parlamentarischen Initiative 19.475 der WAK-S, \"Das Risiko beim Einsatz von Pestiziden reduzieren\", ein Absenkpfad für Risiken von Pestiziden vom Nationalrat verabschiedet worden ist, will die WAK-N mit den zwei Kommissionsmotionen im Bereich Abwasserreinigungsanlage"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Die Mehrheit der Finanzkommission kam nach den Ausführungen des Bundesrates und der Verwaltung zum Schluss, dass ein System der Solidarbürgschaften bei Transportunternehmen des regionalen Personenverkehrs das einfachere und bessere System ist - schliesslich wird ja derregionalePersonenverkehrnicht m"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Die WAK hat der Kommissionsmotion 20.4261, \"Reduktion der Stickstoffeinträge aus den Abwasserreinigungsanlagen\", mit 15 zu 0 Stimmen bei 4 Enthaltungen zugestimmt. Der Bundesrat befürwortet die Annahme dieser Motion ebenfalls. Besten Dank für die Unterstützung der beiden Motionen. Mit der Motion Fra"
+      },
+      {
+        "source_id": "20050317.gz",
+        "snippet": "Die Antwort ist nicht zutreffend, sie zeugt von Unkenntnis der Lage und der Situation, sie ist nicht vollständig, sie ist tendenziös. Zusammengefasst: Sie ist katastrophal. Sie sprechen hier in Ihrer Antwort davon, dass sich mit der Abdeckung von Güllebehältern die Ammoniakemissionen um bis zu 90 Pr"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Bei Verpackungen wird besonders viel Kunststoff nach einmaliger Nutzung weggeworfen; denken Sie an alle die Take-away-Behälter, Plastikbecher und Kunststoffflaschen. Wenn es um das Sammeln von Kunststoffen geht, dann schneidet die Schweiz nicht schlecht ab. Das ist positiv. Aber wenn es darum geht,"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Mit welchen zwei Argumenten begründete der Bundesrat ursprünglich seinen Antrag auf Ablehnung der Motion Français (19.3750) zur Energieautonomie?",
+    "source_id": "20201217.gz",
+    "expected_answer": "1. Die Bundesverwaltung bezieht bereits 100% erneuerbaren Strom. 2. Vollständige Autonomie ist weder betriebs- noch volkswirtschaftlich sinnvoll.",
+    "answer": "- Die Bundesverwaltung beziehe bereits heute 100 Prozent erneuerbaren Strom, produziere diesen aber nur zu einem kleinen Teil selbst.  \n- Eine vollständige Autonomie der Immobilien des Bundes im Strombereich sei weder aus betriebswirtschaftlicher, volkswirtschaftlicher noch aus energetischer Sicht sinnvoll.",
+    "answer_source_id": [
+      "20201217.gz",
+      "20171206.gz"
+    ],
+    "answer_context_snippets": [
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Der Motionstext des freisinnigen Ständerates Français lautet: \"Der Bundesrat wird beauftragt, einen Investitionsplan vorzulegen, um die Energieautonomie der Immobilien des Bundes bis in 12 Jahren sicherzustellen.\" Sie haben es von den Kommissionssprecherinnen gehört: Dieser Text wurde leicht abgeänd"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Die WAK hat der Kommissionsmotion 20.4261, \"Reduktion der Stickstoffeinträge aus den Abwasserreinigungsanlagen\", mit 15 zu 0 Stimmen bei 4 Enthaltungen zugestimmt. Der Bundesrat befürwortet die Annahme dieser Motion ebenfalls. Besten Dank für die Unterstützung der beiden Motionen. Mit der Motion Fra"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Zweitens, und das ist eigentlich mein persönlicher Hauptgrund: Wenn man das Gleichstellungsgesetz anschaut - und wir hatten ja sehr lange an diesem Gesetz gearbeitet -, sieht man, dass in Artikel 17b Absatz 1 schon geregelt ist, dass der Bundesrat Überprüfungen durchführt. Es ist nicht nötig, jetzt"
+      },
+      {
+        "source_id": "20201217.gz",
+        "snippet": "Diese Anpassung wurde von den Befürwortern der ursprünglichen Motion nicht unterstützt, da damit das Ziel der Motion, dass der Bund die Energie, die er braucht, aus erneuerbarer Energie selber herstellen soll, nicht abgebildet sei. Im Rahmen der Diskussion in der Kommission wurde in einem ersten Sch"
+      },
+      {
+        "source_id": "20171206.gz",
+        "snippet": "Hier reden wir noch nicht über die Verteuerung von Benzin und Diesel. Wir reden noch nicht über das revidierte CO2-Gesetz, wir reden nicht über die Verteuerung von Heizöl oder über die Teuerung im Flugverkehr: Wir reden nur gerade über die Netzstrategie. Wir haben die Bundesverwaltung gefragt, was d"
+      }
+    ]
+  }
+]
