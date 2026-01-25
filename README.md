@@ -21,6 +21,7 @@
 
 ## Repository Structure
 
+```text
 ├── data/
 │   Contains all datasets used in the project including raw input data and any
 │   intermediate or preprocessed files required for the Milestone 1 and further experiments.
@@ -49,6 +50,7 @@
 │
 ├── LICENSE
 │   License information for this repository.
+```
 
 ## Project Structure
 ### Milestone 1
