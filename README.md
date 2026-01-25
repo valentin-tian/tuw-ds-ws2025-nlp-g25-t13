@@ -198,3 +198,9 @@ The Nomic-embed-text-based system significantly underperforms the other approach
 which negatively impacts the quality of the final answers even when using the same generation scheme.
 
 Finally, all the systems examined correctly handle "No answer in data" questions, confirming the absence of systematic hallucinations in scenarios where the answer is missing from the source data.
+
+## Sources
+
+1. [Lectures of the course "194.093 Natural Language Processing and Information Extraction"](https://github.com/tuw-nlp-ie/tuw-nlp-ie-2025WS)
+2. [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/%7Ejurafsky/slp3/)
+3. [Verbatim RAG of KRLabs](https://github.com/KRLabsOrg/verbatim-rag)
