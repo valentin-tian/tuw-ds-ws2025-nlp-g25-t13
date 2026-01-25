@@ -40,7 +40,8 @@
 │   Slides used for the final project presentation.
 │
 ├── README.md
-│   High-level project description and instructions on how to reproduce the key results and details of the Milestone 1 and Milestone 2 results.
+│   High-level project description and instructions on how to reproduce the key results and details
+|   of the Milestone 1 and Milestone 2 results.
 │
 ├── requirements.txt
 │   List of Python dependencies required to run the project.
