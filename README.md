@@ -53,6 +53,12 @@
 ├── LICENSE
 │   License information for this repository.
 ```
+## Implemented approaches
+
+1. Rule-based "TF-IDF (BM25)" (Vectoring: BM-25, Answering: ChatGPT 4.1-mini). Source: [NLP_RAG_TFDF.ipynb](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/NLP_RAG_TFDF.ipynb), output: [Rule-based answers](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/output/100_docs/tfdf_20q_100d.json)
+2. ML-based "E5 Text Embeddings" (Vectoring: E5 Text Embeddings, Answering: ChatGPT 4.1-mini). Source: [NLP_RAG_LLMRetriev.ipynb](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/NLP_RAG_LLMRetriev.ipynb), output: [ML-based answers](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/output/100_docs/llm_20q_100d.json)
+3. Local SLM "Nomic-embed-text" (Vectoring: Nomic-embed text, Answering: LLama 3.2). Source: [NLP_RAG_LLMLocal.ipynb](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/NLP_RAG_LLMLocal.ipynb), output: [Local SLM answers](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/output/100_docs/output_llama_20q_100d.json)
+4. Verbatim system "Verbatim" (Vectoring: E5 Text Embeddings, Answering: Verbatim). Source: [NLP_VerbatimRAG_LLMRetriev.ipynb](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/NLP_VerbatimRAG_LLMRetriev.ipynb), output: [Verbatim answers](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/output/100_docs/verbatim_20q_100d.json)
 
 ## Interim results
 ### Milestone 1
@@ -120,29 +126,81 @@ We have analysed the answers generated from the RAG model for both rule-based an
 - Make a promt "stronger" - hard rejection if there is no information, request to cite, limit the scope of the context.
 - Add a simple verifier - a second prompt that checks the answer whithin the context.
 
-<!---
-### Further Analysis
+## Final results
+### Retrieval evaluation
+#### Description of the metrics used
 
-| Question ID | TFDF | LLM | Verbatim |
-|:----------|:--------:|:--------:| :--------:|
-| 1 | 1 | 1 | - |
-| 2 | 0.5 | 0.5 | - |
-| 3 | 0.5 | 0.5 | - |
-| 4 | 0.5 | 1 | - |
-| 5 | 0.5 | 0.5 | - |
-| 6 | 1 | 1 | - |
-| 7 | 1 | 0 | - |
-| 8 | 1 | 0 | - |
-| 9 | 1 | 0.5 | - |
-| 10 | 0.5 | 0.5 | - |
-| 11 | 1 | 1 | - |
-| 12 | 1 | 1 | - |
-| Total | 9.5/12 | 7.5/12 | - |
-| Accuracy | 0.79 | 0.62 | - |
+To assess the quality of the retrieval systems, standard information retrieval metrics were used: Recall@k and MRR.
 
-1 - True
+Recall@1 shows the proportion of queries for which the relevant document was found in the first search result position. 
+This metric reflects the system's ability to immediately return the correct result and is especially important for scenarios where the user expects an accurate answer.
 
-0.5 - Almost True (Noise, too many snippets, additional knowledge/opinion)
+Recall@5 measures the proportion of queries for which the relevant document appears in the top 5 results. 
+It characterizes the overall coverage of the retrieval system and its ability to find relevant information even if it is not in the first position.
 
-0 - False
--->
+MRR (Mean Reciprocal Rank) takes into account the position of the first relevant document in the search results and averages the inverse rank across all queries. 
+The higher the MRR, the closer to the top of the list the system typically places the correct document, reflecting the quality of the ranking, not just the fact of finding it.
+
+| System                 | Recall@1 | Recall@5 | MRR  |
+|------------------------|----------|----------|------|
+| TF-IDF (BM25)          | 0.737    | 0.895    | 0.80 |
+| E5 Text Embeddings     | 0.74     | 0.79     | 0.75 |
+| Verbatim               | 0.74     | 0.79     | 0.75 |
+| Nomic-embed-text       | 0.53     | 0.73     | 0.62 |
+
+The results show that TF-IDF (BM25) demonstrates the most consistent and strong performance among all the methods. It achieves a high Recall@5 of 0.895 and the best MRR of 0.80, 
+indicating effective ranking and the ability to consistently return relevant documents in the top search results.
+
+E5 Text Embeddings and Verbatim retrieval show comparable results: both methods achieve a Recall@1 of approximately 0.74 and an MRR of 0.75 due to that they used the same vectoring method and model.
+This suggests that semantic embeddings are competitive with classical lexical methods in the retrieval task but they are inferior to BM25 in terms of depth of coverage.
+
+The Nomic-embed-text model significantly lags behind the other approaches across all metrics. The low Recall@1 of 0.53 and MRR of 0.62 indicate problems both with finding relevant documents
+and with their correct ranking, making this method the least suitable for the retrieval scenario under consideration.
+
+Overall, the results confirm that classical lexical retrieval remains a strong baseline solution, especially in tasks where exact term matching and correct ranking are key. 
+Semantic embeddings show promising but less stable results and require additional tuning or combination with lexical methods.
+
+### Answering evaluation
+
+#### Manual Answer Quality Assessment Method
+
+To assess the quality of the RAG system responses, a manual assessment was conducted to verify the factual correctness and consistency of the responses with the source data.
+
+Each response was scored on a three-point scale:
+
+- 1 (True) - the response is completely correct and supported by the provided data;
+- 0.5 (Almost True) - the response is generally correct but contains noise, redundant information, subjective elements, or incorrect/inaccurate references;
+- 0 (False) - the response is incorrect or not supported by the data.
+
+Additionally questions were grouped by type:
+
+- Facts with numbers - questions requiring the precise extraction of numerical facts;
+- Definitional facts - questions defining or explaining concepts;
+- No answer in data - control questions for which there is no answer in the source data.
+
+| Question Group          | TF-IDF (BM25) | E5 Text Embeddings | Verbatim | Nomic-embed-text |
+|-------------------------|---------------|-------------------|----------|------------------|
+| Facts with numbers      | 6/8           | 6.5/8             | 3.5/8    | 1.5/8            |
+| Definitional facts     | 7/10          | 6/10              | 6.5/10   | 4/10             |
+| No answer in data       | 2/2           | 2/2               | 2/2      | 2/2              |
+| **Total**               | **15/20**     | **14.5/20**       | **12/20**| **7.5/20**       |
+| **Accuracy**            | **0.75**      | **0.75**          | **0.6**  | **0.375**        |
+
+The results of manual evaluation show that the TF-IDF (BM25) and E5 Text Embeddings-based systems achieve the highest overall accuracy of 0.75. Importantly, the same response model (ChatGPT 4.1-mini)
+was used to generate responses in both cases, allowing for a direct comparison of the impact of the retrieval approach on the overall performance of the RAG system. 
+These results indicate that differences in response quality are primarily due to the quality of the retrieved context rather than the generative model.
+
+The Verbatim method demonstrates lower accuracy of 0.6, which is due to its fundamental feature: the system attempts to extract a direct answer from the text without using additional knowledge or reformulation. 
+This approach reduces the risk of hallucinations but makes the system sensitive to question wording and limits its ability to generalize information, ultimately leading to lower response accuracy, what is actually more important
+than just high accuracy in the domain of parliamentary documents.
+
+The Nomic-embed-text-based system significantly underperforms the other approaches with Accuracy = 0.375, especially on questions requiring precise factual matching. This indicates insufficient relevance of the extracted context, 
+which negatively impacts the quality of the final answers even when using the same generation scheme.
+
+Finally, all the systems examined correctly handle "No answer in data" questions, confirming the absence of systematic hallucinations in scenarios where the answer is missing from the source data.
+
+## Sources
+
+1. [Lectures of the course "194.093 Natural Language Processing and Information Extraction"](https://github.com/tuw-nlp-ie/tuw-nlp-ie-2025WS)
+2. [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/%7Ejurafsky/slp3/)
+3. [Verbatim RAG of KRLabs](https://github.com/KRLabsOrg/verbatim-rag)
