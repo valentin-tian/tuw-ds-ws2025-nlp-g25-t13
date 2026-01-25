@@ -85,6 +85,7 @@ We have analysed the answers generated from the RAG model for both rule-based an
 - Make a promt "stronger" - hard rejection if there is no information, request to cite, limit the scope of the context.
 - Add a simple verifier - a second prompt that checks the answer whithin the context.
 
+<!---
 ### Further Analysis
 
 | Question ID | TFDF | LLM | Verbatim |
@@ -105,7 +106,7 @@ We have analysed the answers generated from the RAG model for both rule-based an
 | Accuracy | 0.79 | 0.62 | - |
 
 1 - True
-
+-->
 0.5 - Almost True (Noise, too many snippets, additional knowledge/opinion)
 
 0 - False
