@@ -53,7 +53,7 @@
 │   License information for this repository.
 ```
 
-## Project Structure
+## Interim results
 ### Milestone 1
 #### Deliverables
 - [Preprocessing Code](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/preprocess.py)
