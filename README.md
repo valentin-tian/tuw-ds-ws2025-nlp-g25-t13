@@ -23,8 +23,9 @@
 
 ```text
 ├── data/
-│   Contains all datasets used in the project including raw input data and any
-│   intermediate or preprocessed files required for the Milestone 1 and further experiments.
+│   Contains all datasets and a list of questions for evaluation
+|   used in the project including raw input data and any intermediate or preprocessed
+|   files required for the Milestone 1 and further experiments.
 │
 ├── src/
 │   Core source code of the project. This folder includes the implementation of
