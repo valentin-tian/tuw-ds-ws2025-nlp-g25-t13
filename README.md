@@ -19,7 +19,42 @@
 | 16/01/2026 | Final Presentation | Presentation and Feedback |
 | 25/01/2026 | Final Submission | Final Solution |
 
-## Project Structure
+## Repository Structure
+
+```text
+├── data/
+│   Contains all datasets and a list of questions for evaluation
+|   used in the project including raw input data and any intermediate or preprocessed
+|   files required for the Milestone 1 and further experiments.
+│
+├── src/
+│   Core source code of the project. This folder includes the implementation of
+│   data processing, model logic and evaluation components.
+│
+├── output/
+│   Stores all generated outputs such as RAG outputs.
+│
+├── NLP_IE_2025WS_Exercise.pdf
+│   Official exercise description and task specification.
+│
+├── WS2025_NLP_G25_T13_Slides.pdf
+│   Slides used for the final project presentation.
+│
+├── README.md
+│   High-level project description and instructions on how to reproduce the key results and details
+|   of the Milestone 1 and Milestone 2 results.
+│
+├── requirements.txt
+│   List of Python dependencies required to run the project.
+│
+├── environment_ollama.yml
+│   Conda environment specification for running experiments with Ollama-based models.
+│
+├── LICENSE
+│   License information for this repository.
+```
+
+## Interim results
 ### Milestone 1
 #### Deliverables
 - [Preprocessing Code](https://github.com/valentin-tian/tuw-ds-ws2025-nlp-g25-t13/blob/main/src/preprocess.py)
@@ -85,6 +120,7 @@ We have analysed the answers generated from the RAG model for both rule-based an
 - Make a promt "stronger" - hard rejection if there is no information, request to cite, limit the scope of the context.
 - Add a simple verifier - a second prompt that checks the answer whithin the context.
 
+<!---
 ### Further Analysis
 
 | Question ID | TFDF | LLM | Verbatim |
@@ -109,3 +145,4 @@ We have analysed the answers generated from the RAG model for both rule-based an
 0.5 - Almost True (Noise, too many snippets, additional knowledge/opinion)
 
 0 - False
+-->
